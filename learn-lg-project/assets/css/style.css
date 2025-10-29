@@ -5,3 +5,10 @@
    left: 1000px;;
 
 }
+.heading-area {
+   position: absolute;
+   left: 500px;
+   top: 500px;
+   z-index: 500px;
+
+}
