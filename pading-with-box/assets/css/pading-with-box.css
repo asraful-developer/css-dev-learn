@@ -1,0 +1,11 @@
+div.width300px {
+    width: 300px;
+    background-color: blue;
+    font-size: 25px;
+}
+div.box-pading {
+    width: 300px;
+    padding:20px;
+    background-color: green;
+    box-sizing: border-box;
+}
