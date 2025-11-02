@@ -1,0 +1,31 @@
+/* heasing start */
+.heading {
+    color: red;
+    text-align: center;
+}
+
+/* heading end */
+
+/* peragrape start  */
+.peragrape {
+    color: blue;
+    font-size: 20px;
+    font-family: ;
+    width: 500px;
+
+
+}
+
+/* peragrape end  */
+
+/* overflow property start  */
+.overflow-property {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(135, 135, 86);
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+
+    /* class overflo property end  */
