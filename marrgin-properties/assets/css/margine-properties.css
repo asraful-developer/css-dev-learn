@@ -20,3 +20,23 @@
     font-weight: 500;
     color: #ffffff;
 }
+
+.learn-display_inner {
+    background-color: #0088ff;
+}
+
+.learn-display_inner div {
+    height: 100px;
+    width: 200px;
+    background-color: #ffff00;
+    margin: 10px;
+}
+
+.learn-display_inner div {
+    height: 100px;
+    width: 200px;
+    background-color: #ffff00;
+    margin: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
