@@ -9,9 +9,25 @@
 <body>
     <main>
         <section>
-            <div>
+            <div class="">
+                <!-- start once click -->
+                <div class="click/show" >
                 <p class="oneclick" onclick="myFunction()">click to show/Hide panel</p>
-                    
+                 </div>   
+                 <!-- once click eliment end -->
+                 <div id="panel">
+                    <P>The pancel toggles between hiding and showing a div element</P>
+                    <p>W use java script to open and clode it </p>
+                    <p>you will learn more about javaScript in our javaScript Tutorial</p>
+                    <script>
+function myFunction() {
+  document.getElementById("panel").style.display = "block";
+}
+</script>
+
+
+
+                 </div>
                 
             </div>
         </section>
