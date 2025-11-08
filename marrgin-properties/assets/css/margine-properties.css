@@ -1,7 +1,42 @@
-div {
-    background-color: rgb(103, 209, 103);
-    margin-top: 200px;
-    margin-right:400px;
-    margin-bottom:500px;
+.left-area {
+    background-color: #52abf8;
+    margin-bottom: 50px;
+    border: 5px solid #000000;
+    padding-left: 50px;
+}
 
+.right-area {
+    background-color: #28c85e;
+}
+
+.left-area h1 {
+    padding-left: 40px;
+}
+
+.left-area p {
+    padding-left: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.learn-display_inner {
+    background-color: #0088ff;
+}
+
+.learn-display_inner div {
+    height: 100px;
+    width: 200px;
+    background-color: #ffff00;
+    margin: 10px;
+}
+
+.learn-display_inner div {
+    height: 100px;
+    width: 200px;
+    background-color: #ffff00;
+    margin: 10px;
+    text-align: center;
+    padding-top: 20px;
 }

@@ -1,0 +1,29 @@
+/* disply inline start  */
+.a {
+    display: inline;
+    background-color: rgb(212, 149, 149);
+    padding: 10px;
+    border: 2px solid red;
+}
+
+/* disply inline start */
+/* disply inline-block start */
+.b {
+    display: inline-block;
+    background-color: aqua;
+    padding: 10px;
+    height: 20px;
+    border: 2px solid red;
+
+}
+
+/* disply inline-block end  */
+/* disply block start */
+.ab {
+    background-color: brown;
+    display: block;
+    font-size: 20px;
+    width: 400px;
+    padding: 10px;
+    border: 2px solid rgb(15, 10, 1);
+}
