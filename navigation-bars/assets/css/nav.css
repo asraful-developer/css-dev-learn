@@ -1,0 +1,22 @@
+ul {
+    list-style-type:none;
+    margin:12px;
+    padding: 12px;
+    width: 500px;
+    background-color: brown;
+    font-size: 40px;
+}
+li a {
+    display: block;
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: wheat;
+
+}
+li .active{
+    background-color: green;
+    color: rgb(242, 239, 233);
+}
