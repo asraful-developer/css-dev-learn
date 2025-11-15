@@ -2,21 +2,22 @@ ul {
     list-style-type:none;
     margin:12px;
     padding: 12px;
-    width: 500px;
-    background-color: brown;
+    width: ;
+    background-color: rgb(6, 2, 2);
     font-size: 40px;
+    display: flex;
 }
 li a {
     display: block;
-    color: black;
+    color: rgb(248, 245, 245);
     padding: 12px;
     text-decoration: none;
 }
 li a:hover {
-    background-color: wheat;
+    background-color:rgb(94, 92, 92);
 
 }
-li .active{
-    background-color: green;
-    color: rgb(242, 239, 233);
+
+p{
+    margin: 12px;
 }
