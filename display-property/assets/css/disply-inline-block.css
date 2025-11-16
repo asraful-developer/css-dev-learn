@@ -1,29 +1,19 @@
-/* disply inline start  */
-.a {
-    display: inline;
-    background-color: rgb(212, 149, 149);
-    padding: 10px;
-    border: 2px solid red;
-}
-
-/* disply inline start */
-/* disply inline-block start */
-.b {
+/* disply inline-block start  */
+.inline-display__inner .card {
     display: inline-block;
-    background-color: aqua;
+    background-color: #7ea394;
+    color: #ffffff;
+    font-size: 30px;
     padding: 10px;
-    height: 20px;
-    border: 2px solid red;
-
+    margin: 10px;
+    font-weight: 700;
+    font-family: system-ui;
+    height: 200px;
+    width: 100px;
 }
 
-/* disply inline-block end  */
-/* disply block start */
-.ab {
-    background-color: brown;
-    display: block;
-    font-size: 20px;
-    width: 400px;
-    padding: 10px;
-    border: 2px solid rgb(15, 10, 1);
+.inline-display__inner .item-5 {
+    padding: 30px 10px 5px 50px;
+    background: #0ea315;
+    color: #22ff00;
 }

@@ -8,6 +8,7 @@
 }
 
 .block-display__inner div {
+    display: block;
     height: 100px;
     width: 400px;
     background-color: #ffff00;

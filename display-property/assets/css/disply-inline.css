@@ -1,29 +1,10 @@
 /* disply inline start  */
-.a {
+.inline-display__inner div {
     display: inline;
-    background-color: rgb(212, 149, 149);
+    font-size: 30px;
     padding: 10px;
-    border: 2px solid red;
-}
-
-/* disply inline start */
-/* disply inline-block start */
-.b {
-    display: inline-block;
-    background-color: aqua;
-    padding: 10px;
-    height: 20px;
-    border: 2px solid red;
-
-}
-
-/* disply inline-block end  */
-/* disply block start */
-.ab {
-    background-color: brown;
-    display: block;
-    font-size: 20px;
-    width: 400px;
-    padding: 10px;
-    border: 2px solid rgb(15, 10, 1);
+    margin: 10px;
+    font-weight: 700;
+    background-color: blue;
+    color: white;
 }
