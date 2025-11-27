@@ -1,0 +1,17 @@
+.displey-inline-block__inner {
+    background-color: rgb(247 186 0 / 20%);
+    display: flex;
+    padding: 34px;
+}
+   
+    
+.common {
+    font-size: 32px;
+    padding: 40px;
+    background-color: #e153ba;
+    width: px;
+    padding: 38px;
+    padding-right: 0px;
+}
+    
+    
