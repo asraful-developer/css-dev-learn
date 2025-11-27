@@ -1,0 +1,23 @@
+.div00 {
+    float: left;
+    padding: 10px;
+    margin-left: 15px;
+    border: 1px double;
+    width: 500px;
+
+
+}
+
+.div1 {
+    background-color: red;
+}
+
+.div02 {
+    background-color: green;
+
+
+}
+
+.div03 {
+    background-color: yellow;
+}

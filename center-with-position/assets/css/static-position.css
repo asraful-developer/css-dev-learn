@@ -1,0 +1,7 @@
+.static-position__inner{
+    position: static;
+    border: 20px solid rgb(16, 241, 57);
+    background-color: blueviolet;
+    text-align: center;
+
+}

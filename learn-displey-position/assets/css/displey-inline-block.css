@@ -1,0 +1,19 @@
+.displey-inline-block__inner {
+    background-color: #2bd214;
+    padding: 34px;
+}
+
+.displey-inline-block__inner .card.item-01 {
+    background-color: #131f10;
+    width: 300px;
+    height: 150px;
+}
+
+.displey-inline-block__inner .card {
+    font-size: 32px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 15px;
+    display: inline-block;
+    width: 150px;
+}

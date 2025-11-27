@@ -1,0 +1,19 @@
+/* disply inline-block start  */
+.inline-display__inner .card {
+    display: inline-block;
+    background-color: #7ea394;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 700;
+    font-family: system-ui;
+    height: 200px;
+    width: 100px;
+}
+
+.inline-display__inner .item-5 {
+    padding: 30px 10px 5px 50px;
+    background: #0ea315;
+    color: #22ff00;
+}
