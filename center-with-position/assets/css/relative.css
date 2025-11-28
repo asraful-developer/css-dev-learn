@@ -1,0 +1,8 @@
+.relative-position__inner .relative {
+    background-color: red;
+    position: relative;
+    font-size: 40px;
+    left: 50px;
+    border: 20px double darkseagreen;
+
+}
