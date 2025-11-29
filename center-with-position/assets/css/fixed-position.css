@@ -1,8 +1,8 @@
-.relative-position__inner .relative {
+.learning-fixed-position__inner .fixed {
     background-color: red;
     font-size: 42px;
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    bottom: 315px;
     width: 659px;
     height: 120px;
     border: 20px double cadetblue;
