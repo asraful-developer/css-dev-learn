@@ -1,9 +1,8 @@
 .sticky-position__inner .sticky {
-    background: red;
     position: sticky;
-    border: black;
-
-
-
-
+    top: 0;
+    background-color: green;
+    border: 2px;
+    width: 711px;
+    font-size: 78px;
 }
