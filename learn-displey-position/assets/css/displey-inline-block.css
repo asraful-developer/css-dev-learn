@@ -7,6 +7,7 @@
     background-color: #131f10;
     width: 300px;
     height: 150px;
+    position: relative;
 }
 
 .displey-inline-block__inner .card {
@@ -16,4 +17,16 @@
     margin: 15px;
     display: inline-block;
     width: 150px;
+}
+
+.item-01 button {
+    background-color: #08ff03;
+    color: #000000;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: 700;
+    position: absolute;
+    top: 62.5px;
+    left: 112px;
+    cursor: pointer;
 }
