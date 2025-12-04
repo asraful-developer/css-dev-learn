@@ -1,0 +1,15 @@
+.page-width {
+  width: 1710px;
+  margin: 0 auto;
+  background-color: #EBFAEB;
+}
+
+.text-content {
+  display: inline-block;
+  width: 49%;
+}
+
+.image-box {
+  display: inline-block;
+  width: 49%;
+}
