@@ -1,30 +1,38 @@
 .page-width {
-    width: 1710px;
-    background-color: #EBFAEB;
+    width: 1445px;
+    background-color: hwb(120 73% 1%);
     margin: 40px;
-    display: inline-block;
+    height: 574px;
+    border-radius: 30px;
 }
-
 
 .text-content {
-    width: 775px;
-    height: 448px;
-    top: 430px;
-    left: 200px;
-}
-.image-box {
-    display: inline-block;
-    width: 91%;
+    width: 764px;
+    height: 0px;
+    padding: 50px;
     position: relative;
-    left: 698px;
+    left: 163px;
+    top: 158px;
+}
 
+.image-box {
+    position: relative;
+    width: 0px;
+    left: 948px;
 }
 
 .img-box-arro {
     width: 20px;
-    height: 64px;
-    display: inline-block;
-    position: relative;
-    top: -191px;
-    left: 30px;
+    position: absolute;
+    right: 32px;
+    height: 77px;
+    top: 182px;
+}
+
+.image-box__inner{
+    height: 390px;
+    width: 310px;
+}
+.text-content__h3 {
+color:rgba(3, 185, 3, 0.888);
 }
