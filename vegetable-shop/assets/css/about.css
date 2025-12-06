@@ -1,0 +1,16 @@
+.page-width {
+    background: #EBFAEB;
+    width: 1820px;
+    height: 878px;
+    top: 215px;
+    left: 50px;
+    position: sticky;
+}
+
+.text-content {
+    width: 775px;
+    height: 448px;
+    top: 430px;
+    left: 200px;
+    position: sticky;
+}
