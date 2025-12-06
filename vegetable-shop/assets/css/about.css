@@ -1,32 +1,30 @@
 .page-width {
-    background: #EBFAEB;
-    width: 1475px;
-    height: 878px;
-    top: 215px;
-    left: 50px;
-    position: sticky;
+    width: 1710px;
+    background-color: #EBFAEB;
     margin: 40px;
+    display: inline-block;
 }
+
 
 .text-content {
     width: 775px;
     height: 448px;
     top: 430px;
-    
     left: 200px;
-    position: sticky;
 }
 .image-box {
-    width: 661px;
-    left: 1026px;
-    position: sticky;
-    height: 819px;
-    top: 274px;
+    display: inline-block;
+    width: 91%;
+    position: relative;
+    left: 698px;
+
 }
+
 .img-box-arro {
     width: 20px;
     height: 64px;
-    top: 622px;
-    left: 1770px;
-    position: fixed;
+    display: inline-block;
+    position: relative;
+    top: -191px;
+    left: 30px;
 }
