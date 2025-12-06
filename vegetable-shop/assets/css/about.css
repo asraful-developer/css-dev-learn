@@ -1,16 +1,32 @@
 .page-width {
     background: #EBFAEB;
-    width: 1820px;
+    width: 1475px;
     height: 878px;
     top: 215px;
     left: 50px;
     position: sticky;
+    margin: 40px;
 }
 
 .text-content {
     width: 775px;
     height: 448px;
     top: 430px;
+    
     left: 200px;
     position: sticky;
+}
+.image-box {
+    width: 661px;
+    left: 1026px;
+    position: sticky;
+    height: 819px;
+    top: 274px;
+}
+.img-box-arro {
+    width: 20px;
+    height: 64px;
+    top: 622px;
+    left: 1770px;
+    position: fixed;
 }
