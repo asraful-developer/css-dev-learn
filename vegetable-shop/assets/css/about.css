@@ -36,3 +36,10 @@
 .text-content__h3 {
 color:rgba(3, 185, 3, 0.888);
 }
+
+.category-width ul {
+display: inline-block;
+}
+hr {
+    margin: 40px;
+}
