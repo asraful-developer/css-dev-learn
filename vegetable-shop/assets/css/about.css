@@ -41,5 +41,18 @@ color:rgba(3, 185, 3, 0.888);
 display: inline-block;
 }
 hr {
+    margin: 35px;
+}
+dt.category {
+    padding: 6px;
+    background: white;
+    display: inline-block;
+    width: 218px;
+}
+.Category-heading {
     margin: 40px;
+}
+.category-width {
+    width: 1494px;
+    background: white;
 }
