@@ -54,5 +54,42 @@ dt.category {
 }
 .category-width {
     width: 1494px;
-    background: white;
+    background: #ffffff;}
+
+    /* new section start */
+.fresh.fruits.collection__width {
+    width: 714px;
+    margin-top: 45px;
+    margin-left: 40px;
+}
+
+.texe-content-left-saide {
+    position: absolute;
+    left: 00;
+    padding: 113px;
+    font-size: 25px;
+}
+.right-saide-image {
+    height: 427px;
+    width: 728px;
+}
+.text-content-right-saide {
+    width: 764px;
+    height: 0px;
+    padding: 50px;
+    position:relative;
+    left: 46px;
+    top: 158px;
+    font-size: 25px;
+}
+
+
+.fresh.fruits.collection-right.side.area__width {
+    position: absolute;
+    left: 785px;
+    top: 998px;
+}
+.image-box02__inner{
+    height: 427px;
+    width: 728px;
 }
