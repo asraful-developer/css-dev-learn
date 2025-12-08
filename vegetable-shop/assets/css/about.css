@@ -29,34 +29,67 @@
     top: 182px;
 }
 
-.image-box__inner{
+.category-heading {
+
+}
+
+.category-heading h2 {
+    font-size: 36px;
+    line-height: 52px;
+    color: #333333;
+    font-family: poppins;
+}
+
+.category-heading hr {
+    margin-left: 40;
+}
+
+.image-box__inner {
     height: 390px;
     width: 310px;
 }
+
 .text-content__h3 {
-color:rgba(3, 185, 3, 0.888);
+    color: rgba(3, 185, 3, 0.888);
 }
 
-.category-width ul {
-display: inline-block;
+.category__inner {
+    padding-bottom: 70px;
+    max-width: 1710px;
+    width: 100%;
+    margin: 0px auto;
 }
-hr {
-    margin: 35px;
+
+.category__inner .category-box {
+    margin-top: 40px;
 }
-dt.category {
-    padding: 6px;
+
+.category-box .category-card {
     background: white;
     display: inline-block;
-    width: 218px;
+    padding: 35px 45px;
+    background-color: #F2F2F2;
+    margin-right: 30px;
 }
-.Category-heading {
-    margin: 40px;
+
+.category-box .category-card:last-child {
+    margin-right: 0px;
 }
+
+.category-card img {
+    width: 165px;
+    height: 130px;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
 .category-width {
     width: 1494px;
-    background: #ffffff;}
+    background: #ffffff;
+}
 
-    /* new section start */
+/* new section start */
 .fresh.fruits.collection__width {
     width: 714px;
     margin-top: 45px;
@@ -69,15 +102,17 @@ dt.category {
     padding: 113px;
     font-size: 25px;
 }
+
 .right-saide-image {
     height: 427px;
     width: 728px;
 }
+
 .text-content-right-saide {
     width: 764px;
     height: 0px;
     padding: 50px;
-    position:relative;
+    position: relative;
     left: 46px;
     top: 158px;
     font-size: 25px;
@@ -89,7 +124,8 @@ dt.category {
     left: 785px;
     top: 998px;
 }
-.image-box02__inner{
+
+.image-box02__inner {
     height: 427px;
     width: 728px;
 }
