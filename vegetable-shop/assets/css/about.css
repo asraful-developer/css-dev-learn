@@ -106,18 +106,25 @@
     line-height: 65px;
     letter-spacing: 0px;
 }
-.img-box-collection img {
-    width: 840px;
-    height: 535px;
-    position: ;
-    top: 1637px;
-    left: 105px;
-}
+
 .text-content-left-saide {
-    position: absolute;
-    width: 280px;
-    left: 175px;
-    border-bottom-left-radius: 100px;
-    top: 1764px;
-    height: 281px;
+width: 280px;
+height: 281px;
+top: 1764px;
+left: 175px;
+opacity: 1;
+border-radius: 100px;
+position: absolute;
+
+}
+.img-box-collection {
+
+width: 840px;
+height: 535px;
+top: 1637px;
+left: 105px;
+opacity: 1;
+border-radius: 20px;
+position: relative;
+
 }
