@@ -91,7 +91,32 @@
 
 /* new section start */
 
-.collection-img-box {
-display: inline-block;
+.collection__inner {
+    width: 1760px;
+    height: 535px;
+    top: 1637px;
+    left: 105px;
+    position: relative;
+}
+.collection-img-box img
+ {
+    width: 840px;
+    height: 535px;
+    top: 1637px;
+    left: 105px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+}
+.right-img-box img {
+
+    width: 840px;
+    height: 535px;
+    top: 1637px;
+    left: 105px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+}
+img-box {
+    display: inline-block;
 }
 
