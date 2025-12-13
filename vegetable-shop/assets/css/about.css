@@ -152,6 +152,21 @@
     display:inline-block;
     gap: 30px;
 }
+.peragrape
+ {
+    width: 318px;
+    height: 90px;
+    text-align: center;
+    font-size: 20px;
+}
+.peragrape button {
+    width: 258px;
+    background-color: #10ff10;
+    border: 1px;
+    color: whitesmoke;
+    font-size: 22px;
+    border-radius: 100px;
+}
 
 
 
