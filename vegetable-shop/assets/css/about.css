@@ -132,6 +132,26 @@
     position: absolute;
     left: 1075px;
 }
+/* new section start */
+
+
+.deals-card-item
+ {
+    width: 1710px;
+    height: 590px;
+    top: 2395px;
+    position: absolute;
+    left: 95px;
+    gap: 30px;   
+    display: inline-block;
+}
+.deals-card {
+    background: rgb(252, 251, 251);
+    width: 318px;
+    height: 280px;
+    display:inline-block;
+    gap: 30px;
+}
 
 
 
