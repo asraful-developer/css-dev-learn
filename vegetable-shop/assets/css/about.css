@@ -135,15 +135,11 @@
 /* new section start */
 
 
-.deals-card-item
- {
+.deals-card-item {
     width: 1710px;
     height: 590px;
-    top: 2395px;
-    position: absolute;
-    left: 95px;
-    gap: 30px;   
-    display: inline-block;
+    gap: 30px;
+    display: inline-flex;
 }
 .deals-card {
     background: rgb(252, 251, 251);
@@ -166,6 +162,14 @@
     color: whitesmoke;
     font-size: 22px;
     border-radius: 100px;
+}
+h2.heading-deals {
+    width: 1693px;
+    height: 94px;
+    top: 11px;
+    position: relative;
+    border-bottom: solid;
+    left: 105px;
 }
 
 
