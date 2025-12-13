@@ -94,7 +94,7 @@
 .collection__inner {
     width: 1760px;
     height: 535px;
-    top: 1637px;
+    top: 00px;
     left: 105px;
     position: relative;
 }
@@ -102,21 +102,36 @@
  {
     width: 840px;
     height: 535px;
-    top: 1637px;
-    left: 105px;
     border-bottom-left-radius: 20px;
-    position: relative;
 }
 .right-img-box img {
 
     width: 840px;
     height: 535px;
-    top: 1637px;
-    left: 105px;
     border-bottom-left-radius: 20px;
-    position: relative;
+   
 }
-img-box {
+.left-img-box {
     display: inline-block;
 }
+.right-img-box {
+    display: inline-block;
+}
+.left-saide-text {
+    width: 280px;
+    height: 281px;
+    top: 251px;
+    position: absolute;
+    left: 175px;
+}
+.right-saide-text
+ {
+    width: 280px;
+    height: 281px;
+    top: 251px;
+    position: absolute;
+    left: 1075px;
+}
+
+
 
