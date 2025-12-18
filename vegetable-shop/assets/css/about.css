@@ -89,7 +89,7 @@
     background: #ffffff;
 }
 
-/* new section start */
+/* collection section start */
 
 .collection__inner {
     width: 1760px;
@@ -132,7 +132,8 @@
     position: absolute;
     left: 1075px;
 }
-/* new section start */
+/* collection section end */
+/* deals section start */
 
 
 .deals-card-item {
@@ -171,6 +172,7 @@ h2.heading-deals {
     border-bottom: solid;
     left: 105px;
 }
+/* deals section end */
 
 
 
