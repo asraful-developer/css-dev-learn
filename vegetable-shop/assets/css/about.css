@@ -11,8 +11,8 @@
     height: 0px;
     padding: 50px;
     position: ;
-    left: 163px;relative
-    top: 158px;
+    left: 163px;
+    relative top: 158px;
 }
 
 .image-box {
@@ -27,10 +27,6 @@
     right: 32px;
     height: 77px;
     top: 182px;
-}
-
-.category-heading {
-
 }
 
 .category-heading h2 {
@@ -89,6 +85,17 @@
     background: #ffffff;
 }
 
+/* Hero section start */
+.hero .hero__inner {
+    max-width: 1710px;
+    width: 100%;
+    margin: 0px auto;
+    background: #EBFAEB;
+    padding: 0 150px;
+}
+
+/* Hero section end */
+
 /* collection section start */
 
 .collection__inner {
@@ -98,25 +105,29 @@
     left: 105px;
     position: relative;
 }
-.collection-img-box img
- {
+
+.collection-img-box img {
     width: 840px;
     height: 535px;
     border-bottom-left-radius: 20px;
 }
+
 .right-img-box img {
 
     width: 840px;
     height: 535px;
     border-bottom-left-radius: 20px;
-   
+
 }
+
 .left-img-box {
     display: inline-block;
 }
+
 .right-img-box {
     display: inline-block;
 }
+
 .left-saide-text {
     width: 280px;
     height: 281px;
@@ -124,14 +135,15 @@
     position: absolute;
     left: 175px;
 }
-.right-saide-text
- {
+
+.right-saide-text {
     width: 280px;
     height: 281px;
     top: 251px;
     position: absolute;
     left: 1075px;
 }
+
 /* collection section end */
 /* deals section start */
 
@@ -142,13 +154,14 @@
     gap: 30px;
     display: flex;
 }
-.peragrape
- {
+
+.peragrape {
     width: 318px;
     height: 90px;
     text-align: center;
     font-size: 20px;
 }
+
 .peragrape button {
     width: 258px;
     background-color: #10ff10;
@@ -157,6 +170,7 @@
     font-size: 22px;
     border-radius: 100px;
 }
+
 h2.heading-deals {
     width: 1693px;
     height: 94px;
@@ -165,7 +179,5 @@ h2.heading-deals {
     border-bottom: solid;
     left: 105px;
 }
+
 /* deals section end */
-
-
-
