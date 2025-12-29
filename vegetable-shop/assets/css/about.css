@@ -136,18 +136,11 @@
 /* deals section start */
 
 
-.deals-card-items{
+.deals-card-item {
     width: 1710px;
     height: 590px;
     gap: 30px;
-    display: inline-flex;
-}
-.deals-card {
-    background: rgb(252, 251, 251);
-    width: 318px;
-    height: 280px;
-    display:inline-block;
-    gap: 30px;
+    display: flex;
 }
 .peragrape
  {
