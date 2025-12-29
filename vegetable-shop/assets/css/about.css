@@ -58,17 +58,18 @@
 }
 
 /* Hero section start */
-.hero .hero__inner {
+.hero__inner {
     max-width: 1710px;
     width: 100%;
     margin: 0px auto;
     background: #EBFAEB;
-    padding: 0 150px;
+    padding: 50px 150px 0;
     display: flex;
+    column-gap: 50px;
 }
 
 .hero__content {
-    padding: 215px 0;
+    padding: 165px 0;
 }
 
 .hero__content h4 {
@@ -115,6 +116,14 @@
     width: 661px;
     height: auto;
     display: block;
+}
+
+.hero__image-box img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+    border-style: none;
 }
 
 /* Hero section end */
