@@ -130,96 +130,11 @@
 /* Hero section end */
 
 /* collection section start */
-
-.collection__item{
-    position: relative;
-}
-.collection__item-bg-image {
-    position: absolute;
-    z-index: -1;
-}
-
 .collection__inner {
     max-width: 1710px;
     width: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    column-gap: 30px;
+    column-gap: 18px;
 }
 
-.collection-img-box img {
-    width: 840px;
-    height: 535px;
-    border-bottom-left-radius: 20px;
-}
-
-.right-img-box img {
-
-    width: 840px;
-    height: 535px;
-    border-bottom-left-radius: 20px;
-
-}
-
-.left-img-box {
-    display: inline-block;
-}
-
-.right-img-box {
-    display: inline-block;
-}
-
-.left-saide-text {
-    width: 280px;
-    height: 281px;
-    top: 251px;
-    position: absolute;
-    left: 175px;
-}
-
-.right-saide-text {
-    width: 280px;
-    height: 281px;
-    top: 251px;
-    position: absolute;
-    left: 1075px;
-}
-
-/* collection section end */
-/* deals section start */
-
-
-.deals-card-item {
-    width: 1710px;
-    height: 590px;
-    gap: 30px;
-    display: flex;
-}
-
-.peragrape {
-    width: 318px;
-    height: 90px;
-    text-align: center;
-    font-size: 20px;
-}
-
-.peragrape button {
-    width: 258px;
-    background-color: #10ff10;
-    border: 1px;
-    color: whitesmoke;
-    font-size: 22px;
-    border-radius: 100px;
-}
-
-h2.heading-deals {
-    width: 1693px;
-    height: 94px;
-    top: 11px;
-    position: relative;
-    border-bottom: solid;
-    left: 105px;
-}
-
-/* deals section end */
