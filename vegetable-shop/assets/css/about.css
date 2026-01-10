@@ -137,4 +137,24 @@
     display: flex;
     column-gap: 18px;
 }
+.collection__item-bg-image {
+    width: 840px;
+    height: 535px;
+    border-bottom-left-radius: 20px;
+}
+.text-part01 {
+    width: 280px;
+    height: 281px;
+    position: relative;
+    left: 175px;
+    bottom: 392px;
+}
+.text-part02 {
+    width: 280px;
+    height: 281px;
+    position: relative;
+    left: 175px;
+    bottom: 392px;
+}
+/* collection section end */
 
