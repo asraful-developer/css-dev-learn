@@ -168,9 +168,29 @@
     max-width: 1710px;
     width: 100%;
     gap: 50px;
+    height: 590px;
 }
 .deals-card {
     width: 318px;
     height: 380px;
     border-bottom-left-radius: 20px;
+}
+.img-tex {
+    text-align: center;
+}
+button {
+    width: 258px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: whitesmoke;
+    color: #08f508;
+    font-weight: 965;
+}
+/* start populer brand section */
+
+.popular-brand__inner {
+    display: flex;
+    width: 1611px;
+    height: 143px;
+    column-gap: 167px;
 }
