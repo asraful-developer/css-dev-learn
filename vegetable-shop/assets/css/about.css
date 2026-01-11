@@ -191,6 +191,99 @@ button {
 .popular-brand__inner {
     display: flex;
     width: 1611px;
-    height: 143px;
+    height: 213px;
     column-gap: 167px;
 }
+/* fresh-frouts-bg section start */
+.fresh-frouts-bg__inner {
+    display: flex;
+    width: 1710px;
+    height: 350PX;
+    column-gap: 20px;
+}
+.fresh-frouts-card.item01 {
+    BACKGROUND: #FFF0DC;
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+}
+.fresh-frouts-card.item01 h4 {
+    border-radius: 20px;
+    width: 191px;
+    height: 92px;
+    font-size: 32px;
+    left: 72px;
+    position: absolute;
+}
+.arro01 {
+    position: absolute;
+    left: 72px;
+    top: 3000px;   
+}
+.fresh-frouts-card.item01 {
+    BACKGROUND: #FFF0DC;
+    width: 550px;
+    height: 350px;
+}
+.fresh-frouts-card.item01 img {
+    width: 254px;
+    height: 300px;
+    left: 273px;
+    position: absolute;
+    top: 2830px;
+}
+
+.fresh-frouts-card.item02 {
+    BACKGROUND: #DDF1D6;
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+}
+.fresh-frouts-card.item02 img {
+    width: 254px;
+    height: 300px;
+    left: 841px;
+    position: absolute;
+    top: 2830px;
+}
+.arro02 {
+    position: absolute;
+    left: 620px;
+    top: 3000px;   
+}
+.fresh-frouts-card.item02 h4 {
+    border-radius: 20px;
+    width: 191px;
+    height: 92px;
+    font-size: 32px;
+    left: 620px;
+    position: absolute;
+}
+.fresh-frouts-card.item03 {
+    BACKGROUND: #FFEBB7;
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+}
+.fresh-frouts-card.item03 img {
+    width: 254px;
+    height: 300px;
+    left: 1445px;
+    position: absolute;
+    top: 2830px;
+}
+.arro03 {
+    position: absolute;
+    left: 1172px;
+    top: 3000px;   
+}
+.fresh-frouts-card.item03 h4 {
+    border-radius: 20px;
+    width: 191px;
+    height: 92px;
+    font-size: 32px;
+    left: 1172px;
+    position: absolute;
+}
+/* fresh-frouts-bg section end */
+
