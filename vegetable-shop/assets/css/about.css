@@ -287,3 +287,13 @@ button {
 }
 /* fresh-frouts-bg section end */
 
+
+.call-center__inner {
+    display: flex;
+    width: 1710px;
+    left: 105px;
+    position: absolute;
+    top: 3442px;
+    column-gap: 30px;
+}
+
