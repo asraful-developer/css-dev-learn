@@ -297,3 +297,17 @@ button {
     column-gap: 30px;
 }
 
+
+.call-center-01-tex {
+    width: 275px;
+    height: 77px;
+    top: 11px;
+    left: 130px;
+    position: absolute;
+}
+
+.call-center-01 {
+    width: 405px;
+    height: 100px;
+}
+
