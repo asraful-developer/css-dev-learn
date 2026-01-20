@@ -291,10 +291,16 @@ button {
 .call-center__inner {
     display: flex;
     width: 1710px;
-    left: 105px;
+    left: 23px;
     position: absolute;
     top: 3442px;
     column-gap: 30px;
+}
+.call-center__inner img {
+    background: #EBFAEB;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
 }
 
 
@@ -333,14 +339,14 @@ button {
     width: 275px;
     height: 77px;
     top: 11px;
-    left: 980px;
+    left: 995px;
     position: absolute;
 }
 .best-price-text {
     width: 275px;
     height: 77px;
     top: 11px;
-    left: 980px;
+    left: 1428px;
     position: absolute;
 }
 
