@@ -310,4 +310,37 @@ button {
     width: 405px;
     height: 100px;
 }
+.authentic-products {
+    width: 405px;
+    height: 100px;
+}
+.secure-payment {
+    width: 405px;
+    height: 100px;
+}
+.best-price {
+    width: 405px;
+    height: 100px;
+}
+.authentic-products-text {
+    width: 275px;
+    height: 77px;
+    top: 11px;
+    left: 567px;
+    position: absolute;
+}
+.secure-payment-text {
+    width: 275px;
+    height: 77px;
+    top: 11px;
+    left: 980px;
+    position: absolute;
+}
+.best-price-text {
+    width: 275px;
+    height: 77px;
+    top: 11px;
+    left: 980px;
+    position: absolute;
+}
 
