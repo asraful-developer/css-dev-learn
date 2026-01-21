@@ -408,3 +408,18 @@ button {
     position: absolute;
     left: 105px;
 }
+.app-stor {
+    position: absolute;
+    top: 277px;
+    left: 106px;
+}
+.about-us {
+    position: absolute;
+    top: 3389px;
+    left: 1097px;
+}
+.info {
+    position: absolute;
+    top: 3389px;
+    left: 1467px;
+}
