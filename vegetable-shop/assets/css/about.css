@@ -423,3 +423,35 @@ button {
     top: 3389px;
     left: 1467px;
 }
+.socal-icon {
+    width: 284px;
+    height: 56px;
+    top: 3772px;
+    position: absolute;
+    left: 105px;
+}
+.pay-icon {
+    width: 391px;
+    height: 56px;
+    top: 3792px;
+    position: absolute;
+    left: 1138px;
+    column-gap: 13px;
+    display: flex;
+}
+.pay-icon img {
+    width: 90px;
+    height: 23px;
+}
+.socal-icon img {
+    width: 56px;
+    height: 56px;
+
+}
+.copyright {
+    width: 391px;
+    height: 56px;
+    top: 3792px;
+    position: absolute;
+    left: 560px;
+}
