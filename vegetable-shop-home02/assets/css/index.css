@@ -291,3 +291,47 @@ span {
 
 /* end img box section */
 
+.tex01 {
+    width: 191px;
+    height: 92px;
+    top: 1535px;
+    position: absolute;
+    left: 155px;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 32px;
+}
+.fruits-collection-bg {
+    background: #FFF0DC;
+    top: 1475px;
+    position: absolute;
+    height: 350px;
+    width: 550px;
+    left: 105px;
+    border-radius: 20px;
+    position: relative;
+}
+.fruits-collection-img {
+    width: 254px;
+    height: 300px;
+    top: 1500px;
+    position: absolute;
+    left: 381px;
+    border-radius: 20px;
+}
+.fruits-collection-arro {
+    background:#FFFFFF;
+    width: 60px;
+    height: 60px;
+    top: 1705px;
+    position: absolute;
+    left: 155px;
+    border-radius: 100px;
+}
+.fruits-collection-arro img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
