@@ -309,7 +309,7 @@ span {
     width: 550px;
     left: 105px;
     border-radius: 20px;
-    position: relative;
+    
 }
 .fruits-collection-img {
     width: 254px;
@@ -335,3 +335,116 @@ span {
     top: 18px;
     left: 18px;
 }
+
+/*  */
+.vegetable-collection {
+    background: #FFF0DC;
+    top: 1475px;
+    position: absolute;
+    height: 350px;
+    width: 550px;
+    left: 685px;
+    border-radius: 20px;
+}
+
+.text02 {
+    width: 171px;
+    height: 92px;
+    top: 1535px;
+    position: absolute;
+    left: 735px;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.vegetable-collection-img {
+    width: 254px;
+    height: 300px;
+    top: 1500px;
+    position: absolute;
+    left: 961px;
+}
+.vegetable-collection-arro{
+    background:#FFFFFF;
+    width: 60px;
+    height: 60px;
+    top: 1705px;
+    position: absolute;
+    left: 735px;
+    border-radius: 100px;
+}
+.vegetable-collection-arro img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+/*  */
+.grocery-item {
+    background:#FFEBB7;
+    top: 1475px;
+    position: absolute;
+    height: 350px;
+    width: 550px;
+    left: 1265px;
+    border-radius: 20px;
+}
+
+.tex03 {
+    width: 132px;
+    height: 92px;
+    top: 1535px;
+    position: absolute;
+    left: 1315px;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.grocery-item-img {
+    width: 254px;
+    height: 300px;
+    top: 1500px;
+    position: absolute;
+    left: 1541px;
+}
+.grocery-item-arrow {
+    background:#FFFFFF;
+    width: 60px;
+    height: 60px;
+    top: 1705px;
+    position: absolute;
+    left: 1315px;
+    border-radius: 100px;
+}
+.grocery-item-arrow img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+/*  */
+
+.deals-gallery {
+    display: flex;
+}
+.deals-tex {
+    width: 405px;
+    height: 46px;
+    top: 404px;
+    position: absolute;
+}
+.deals-gallery img {
+    width: 405px;
+    height: 450px;
+}
+.Icon img {
+    width: 126px;
+    height: 22px;
+    display: flex;
+    gap: 8px;
+}
+/*  */
