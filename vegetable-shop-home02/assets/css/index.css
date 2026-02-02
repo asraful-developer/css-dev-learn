@@ -426,25 +426,52 @@ span {
     top: 18px;
     left: 18px;
 }
-/*  */
 
-.deals-gallery {
-    display: flex;
-}
-.deals-tex {
-    width: 405px;
-    height: 46px;
-    top: 404px;
+/* start deals-gallery */
+.deals__inner {
+    width: 1710px;
+    height: 745px;
+    top: 1925px;
     position: absolute;
+    left: 105px;
 }
-.deals-gallery img {
+.deals-gallery-item-01 img {
     width: 405px;
     height: 450px;
+    border-radius: 5px;
+     background: #F5F5F5;
 }
 .Icon img {
     width: 126px;
     height: 22px;
-    display: flex;
-    gap: 8px;
+    background-color: white;
 }
-/*  */
+.deals-gallery-item-01 {
+    width: 405px;
+    height: 622px;
+    position: absolute;
+    text-align: center;
+   
+}
+.deals-gallery-item-02 {
+    width: 405px;
+    height: 622px;
+    position: absolute;
+    left: 435px;
+    top: 1px;
+}
+.deals-gallery-item-03 {
+    width: 405px;
+    height: 622px;
+    position: absolute;
+    left: 435px;
+    top: 1px;
+}
+.deals-gallery-item-04 {
+    width: 405px;
+    height: 622px;
+    position: absolute;
+    left: 435px;
+    top: 1px;
+}
+/* End deals-gallery */
