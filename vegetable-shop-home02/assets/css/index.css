@@ -474,4 +474,54 @@ span {
     left: 435px;
     top: 1px;
 }
-/* End deals-gallery */
+/* End deals-gallery */.popular-brand__inner h2 {
+    top: 2770px;
+    position: absolute;
+    width: 1710px;
+    height: 83px;
+    left: 105px;
+}
+
+.img-box {
+    position: absolute;
+    width: 1611.64px;
+    top: 2883px;
+    display: flex;
+}
+
+.img-box01 {
+    width: 184px;
+    height: 95px;
+    left: 143px;
+    position: absolute;
+}
+.img-box02 {
+    width: 184px;
+    height: 95px;
+    left: 431px;
+    position: absolute;
+}
+.img-box03 {
+    width: 184px;
+    height: 95px;
+    left: 763px;
+    position: absolute;
+}
+.img-box04 {
+    width: 184px;
+    height: 95px;
+    left: 1019px;
+    position: absolute;
+}
+.img-box05 {
+    width: 184px;
+    height: 95px;
+    left: 1315px;
+    position: absolute;
+}
+.img-box06 {
+    width: 184px;
+    height: 95px;
+    left: 1615px;
+    position: absolute;
+}
