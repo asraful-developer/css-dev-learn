@@ -525,3 +525,117 @@ span {
     left: 1615px;
     position: absolute;
 }
+.deal-bg__inner {
+    width: 1710px;
+    background: #FAF4F0;
+    position: absolute;
+    top: 3125.76px;
+    left: 105px;
+    height: 441px;
+}
+
+.deal-bg__inner .right-bg img {
+    position: relative;
+    left: 107px;
+    top: 31px;
+    width: 387px;
+    height: 367px;
+}
+
+.deal-bg__inner .left-bg img {
+    position: absolute;
+    left: 1163px;
+    top: 30px;
+    width: 431px;
+    height: 410px;
+}
+.deal-time {
+    position: absolute;
+    top: 3225.76px;
+    left: 691px;
+    height: 241px;
+}
+.deal-time h4 {
+    font-weight: 600;
+    width: 449px;
+    height: 46px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.days h5 {
+    width: 53px;
+    height: 30px;
+    position: relative;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: medium;
+}
+.hours {
+    width: 74px;
+    height: 95px;
+    left: 131px;
+    position: absolute;
+    top: 120px;
+}
+.hours h5 {
+    width: 53px;
+    height: 30px;
+    position: relative;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: medium;
+}
+
+.min {
+    width: 74px;
+    height: 95px;
+    left: 262px;
+    position: absolute;
+    top: 120px;
+}
+.min h5 {
+    width: 53px;
+    height: 30px;
+    position: relative;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: medium;
+}
+.sec {
+    width: 74px;
+    height: 95px;
+    left: 393px;
+    position: absolute;
+    top: 120px;
+}
+
+.sec h5 {
+    width: 53px;
+    height: 30px;
+    position: relative;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: medium;
+}
+
+.button a {
+    font-family: poppins;
+    font-weight: 500;
+    top: 15px;
+    position: relative;
+    text-decoration: none;
+    left: 55px;
+    color: white;
+    
+}
+.button {
+    border-radius: 100px;
+    background: #27AE60;
+    height: 60px;
+    position: absolute;
+    width: 180px;
+    left: 138px;
+}
+
+
