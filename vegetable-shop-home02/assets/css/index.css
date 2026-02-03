@@ -474,7 +474,9 @@ span {
     left: 435px;
     top: 1px;
 }
-/* End deals-gallery */.popular-brand__inner h2 {
+/* End deals-gallery */
+
+.popular-brand__inner h2 {
     top: 2770px;
     position: absolute;
     width: 1710px;
@@ -525,6 +527,7 @@ span {
     left: 1615px;
     position: absolute;
 }
+
 .deal-bg__inner {
     width: 1710px;
     background: #FAF4F0;
