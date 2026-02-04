@@ -528,6 +528,7 @@ span {
     position: absolute;
 }
 
+/*  */
 .deal-bg__inner {
     width: 1710px;
     background: #FAF4F0;
@@ -641,4 +642,80 @@ span {
     left: 138px;
 }
 
+/*  */
+.call-center-layout__inner {
+    width: 1710px;
+    top: 3667px;
+    position: absolute;
+    display: flex;
+    gap: 30px;
+}
 
+.customer-support .tex {
+    width: 275px;
+    height: 77px;
+    top: 11px;
+    position:absolute;
+    left: 130px;
+}
+
+.customer-support {
+    width: 405px;
+    height: 100px;
+    left: 105PX;
+    position: relative;
+}
+.authentic-products {
+    width: 405px;
+    height: 100px;
+    position: relative;
+}
+
+.authentic-products .tex {
+   width: 275px;
+    height: 77px;
+    top: 11px;
+    position: absolute;
+    left: 130px;
+}
+.secure-payment {
+    width: 405px;
+    height: 100px;
+    position: relative;
+}
+.secure-payment .tex{
+    width: 275px;
+    height: 77px;
+    top: 11px;
+    position: absolute;
+    left: 130px;
+}
+
+.secure-payment img{
+width: 100px;
+background-color:#EBFAEB ;
+border-radius: 10px;
+
+}
+
+.offer {
+    width: 405px;
+    height: 100px;
+    position: relative;
+}
+
+.offer .tex{
+    width: 275px;
+    height: 77px;
+    top: 11px;
+    position: absolute;
+    left: 130px;
+
+}
+
+.offer img{
+width: 100px;
+background-color:#EBFAEB ;
+border-radius: 10px;
+
+}
