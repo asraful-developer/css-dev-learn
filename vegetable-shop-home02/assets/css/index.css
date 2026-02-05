@@ -719,3 +719,20 @@ background-color:#EBFAEB ;
 border-radius: 10px;
 
 }
+.bengal-shop img {
+    width: 68px;
+    height: 61px;
+    top: 3967px;
+    position: absolute;
+    left: 105px;
+}
+.bengal-shop p {
+    line-height: 40px;
+    width: 210px;
+    height: 40px;
+    top: 3943px;
+    left: 192px;
+    position: absolute;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: poppins;
