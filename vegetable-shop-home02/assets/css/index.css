@@ -809,3 +809,20 @@ border-radius: 10px;
     font-weight: 400;
     line-height: 50px;
     color: #828282;
+    position: absolute;
+    top: 4393px;
+    left: 1471px;
+    display: flex;
+    gap: 23.09px;
+}
+
+.text-copy-right {
+    position: absolute;
+    top: 4393px;
+    left: 702px;
+    width: 516px;
+    line-height: 24px;
+    font-family: manrope;
+    font-size: 16px;
+    color: #828282;
+}
