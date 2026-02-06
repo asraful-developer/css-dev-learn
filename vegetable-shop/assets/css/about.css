@@ -395,7 +395,7 @@ button {
     height: 618px;
     top: 3337px;
     position: absolute;
-    background: #F5F5F5;
+
 }
 
 .bangal-shop h3 {
@@ -467,4 +467,16 @@ button {
     top: 3792px;
     position: absolute;
     left: 560px;
+}
+
+
+/* Footer section */
+.footer-menu a {
+    display: block;
+}
+
+.footer__wrapper {
+    max-width: 1710px;
+    margin: 0 auto;
+    background: #F5F5F5;
 }
