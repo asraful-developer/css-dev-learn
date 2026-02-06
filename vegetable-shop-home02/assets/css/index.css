@@ -719,6 +719,9 @@ background-color:#EBFAEB ;
 border-radius: 10px;
 
 }
+
+
+/*  */
 .bengal-shop img {
     width: 68px;
     height: 61px;
@@ -736,6 +739,8 @@ border-radius: 10px;
     font-size: 32px;
     font-weight: 600;
     font-family: poppins;
+}
+
 .about-layout__inner {
     width: 1920px;
     position: absolute;
@@ -809,6 +814,8 @@ border-radius: 10px;
     font-weight: 400;
     line-height: 50px;
     color: #828282;
+}
+.payment-img {
     position: absolute;
     top: 4393px;
     left: 1471px;
