@@ -163,12 +163,25 @@
 }
 
 /* collection section end */
+
+.deals__wrapper {
+    max-width: 1710px;
+    margin: 0 auto;
+    width: 100%;
+}
 .deals__inner {
     display: flex;
     max-width: 1710px;
     width: 100%;
     gap: 50px;
     height: 590px;
+}
+
+.deals-header {
+    font-size: 36px;
+    line-height: 52px;
+    color: #333333;
+    font-family: poppins;
 }
 
 .deals-card {
