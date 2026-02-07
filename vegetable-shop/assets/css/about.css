@@ -213,12 +213,6 @@
 }
 
 /* fresh-frouts-bg section start */
-.fresh-frouts-bg__inner {
-    display: flex;
-    width: 1710px;
-    height: 350PX;
-    column-gap: 20px;
-}
 
 .fresh-frouts-card.item01 {
     BACKGROUND: #FFF0DC;
@@ -466,29 +460,6 @@
     color: #828282;
 }
 
-
-
-.pay-icon img {
-    width: 90px;
-    height: 23px;
-}
-
-
-
-.pay-icon {
-    width: 391px;
-  /*  position: absolute;
-    left: 1337px;*/
-    column-gap: 9px;
-    display: flex;
-}
-.socal-icon img {
-    width: 56px;
-    height: 56px;
-
-}
-
-
 /* Footer section */
 .footer-menu a {
     display: block;
@@ -500,7 +471,10 @@
     background: #F5F5F5;
 }
 
+
+
 /* Footer bottom Start */
+
 .footer-bottom {
     position: relative;
     display: block;
@@ -515,15 +489,60 @@
 }
 
 .copyright {
-    /* width: 516px; */
-    /* height: 25px; */
-    /* left: 702px; */
-    /* position: absolute; */
-    /* font-family: manrope; */
     font-size: 16px;
     line-height: 24px;
     color: #828282;
     top: 19px;
 }
 
+.pay-icon img {
+    width: 90px;
+    height: 23px;
+}
+
+.pay-icon {
+    width: 391px;
+    column-gap: 9px;
+    display: flex;
+}
+.socal-icon img {
+    width: 56px;
+    height: 56px;
+
+}
+
 /* Footer bottom End */
+
+
+
+/* Fruits collection Start */
+.fruits-collection__inner {
+    max-width: 1710px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.fruits-collection-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fruits-collection-item .arrow-icon {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 30px;
+    /*text-align: center;*/
+    position: relative;
+}
+
+/*.arrow-icon img {
+    margin-top: 18px;
+}*/
+.arrow-icon img {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+/* Fruits collection End */
