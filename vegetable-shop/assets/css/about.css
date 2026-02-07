@@ -390,12 +390,13 @@
 }
 
 /* End call center section */
-.about__inner {
-    width: 1920px;
+
+.footer__item {
+    width: 1859px;
     height: 618px;
     top: 3337px;
     position: absolute;
-
+    background-color: #F5F5F5;
 }
 
 .bangal-shop h3 {
@@ -426,47 +427,80 @@
     top: 277px;
     left: 106px;
 }
-.about-us {
+.about-us
+
+ {
     position: absolute;
-    top: 3389px;
     left: 1097px;
+    width: 305px;
+    height: 311px;
+    top: 3398px;
 }
+.footer__item.about-us.footer-menu a {
+    font-family: poppins;
+    line-height: 50px;
+    text-decoration: none;
+    color: #828282;
+}
+
 .info {
     position: absolute;
-    top: 3389px;
     left: 1467px;
+    width: 305px;
+    height: 311px;
+    top: 3398px;
 }
-.socal-icon {
-    width: 284px;
+
+.footer__item.info.footer-menu a {
+    width: 305px;
+    font-family: poppins;
+    line-height: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #828282;
+}
+
+
+
+/* socal icon change (.footer-bottom__inner)in */
+
+.footer-bottom__inner {
+    width: 1710px;
     height: 56px;
-    top: 3772px;
+    top: 3758px;
     position: absolute;
     left: 105px;
-}
-.pay-icon {
-    width: 391px;
-    height: 56px;
-    top: 3792px;
-    position: absolute;
-    left: 1138px;
-    column-gap: 13px;
     display: flex;
 }
+
 .pay-icon img {
     width: 90px;
     height: 23px;
+}
+/* change copyright css */
+.copyright {
+    width: 516px;
+    height: 25px;
+    left: 702px;
+    position: absolute;
+    font-family: manrope;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+    top: 19px;
+}
+ /* change .pay-icon css */ 
+.pay-icon {
+    width: 391px;
+    position: absolute;
+    left: 1337px;
+    column-gap: 9px;
+    display: flex;
 }
 .socal-icon img {
     width: 56px;
     height: 56px;
 
-}
-.copyright {
-    width: 391px;
-    height: 56px;
-    top: 3792px;
-    position: absolute;
-    left: 560px;
 }
 
 
