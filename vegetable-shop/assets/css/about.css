@@ -468,38 +468,17 @@
 
 
 
-/* socal icon change (.footer-bottom__inner)in */
-
-.footer-bottom__inner {
-    width: 1710px;
-    height: 56px;
-    top: 3758px;
-    position: absolute;
-    left: 105px;
-    display: flex;
-}
-
 .pay-icon img {
     width: 90px;
     height: 23px;
 }
-/* change copyright css */
-.copyright {
-    width: 516px;
-    height: 25px;
-    left: 702px;
-    position: absolute;
-    font-family: manrope;
-    font-size: 16px;
-    line-height: 24px;
-    color: #828282;
-    top: 19px;
-}
- /* change .pay-icon css */ 
+
+
+
 .pay-icon {
     width: 391px;
-    position: absolute;
-    left: 1337px;
+  /*  position: absolute;
+    left: 1337px;*/
     column-gap: 9px;
     display: flex;
 }
@@ -520,3 +499,31 @@
     margin: 0 auto;
     background: #F5F5F5;
 }
+
+/* Footer bottom Start */
+.footer-bottom {
+    position: relative;
+    display: block;
+}
+
+.footer-bottom__inner {
+    width: 1710px;
+    margin: 0 auto;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    /* width: 516px; */
+    /* height: 25px; */
+    /* left: 702px; */
+    /* position: absolute; */
+    /* font-family: manrope; */
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+    top: 19px;
+}
+
+/* Footer bottom End */
