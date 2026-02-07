@@ -391,6 +391,12 @@
 
 /* End call center section */
 
+.bangal-shop.footer-logo img {
+    width: 297px;
+    position: absolute;
+    height: 61px;
+}
+
 .footer__item {
     width: 1859px;
     height: 618px;
