@@ -205,6 +205,22 @@
 
 /* start populer brand section */
 
+.popular-brand__heading {
+    max-width: 1710px;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: solid 2px #E0E0E0;
+}
+
+.heading-img-1 {
+    background: #F2F2F2;
+    width: 52px;
+    height: 52px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    left:1430px;
+}
 .popular-brand__inner {
     display: flex;
     width: 1611px;
