@@ -458,8 +458,10 @@
     max-width: 1710px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    column-gap: 24px;
+    justify-content: center;
 }
+
 .fruits-collectioni {
     display: flex;
     justify-content: space-between;
@@ -480,12 +482,35 @@
     left: 18px;
 }
 
-.fruits-collection.item-01 {
-    max-width: 550px;
-    background: #FFF0DC;
-    width: 550px;
-    height: 350px;
+.fruits-collection_item {
     border-radius: 20px;
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.fruits-collection-item-left h4{
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #333333;
+    font-family: poppins;
+}
+
+.fruits-collection_item.item-01 {
+    background: #FFF0DC;
+}
+
+.fruits-collection_item.item-02 {
+    background: #c1d9b9;
+}
+
+
+.fruits-collection-item-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 /* Fruits collection End */
