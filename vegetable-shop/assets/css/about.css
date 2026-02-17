@@ -221,6 +221,29 @@
     position: relative;
     left:1430px;
 }
+.heading-img-1 img {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    top: 15.6px;
+}
+
+.heading-img-2 {
+    background: #27AE60;
+    width: 52px;
+    height: 52px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    left: 1460px;
+}
+
+.heading-img-2 img {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    top: 15.6px;
+}
 .popular-brand__inner {
     display: flex;
     width: 1611px;
@@ -469,3 +492,7 @@
     left: 18px;
 }
 /* Fruits collection End */
+
+
+/*  */
+
