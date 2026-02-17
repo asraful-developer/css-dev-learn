@@ -210,6 +210,7 @@
     margin: 0 auto;
     display: flex;
     border-bottom: solid 2px #E0E0E0;
+    width: 1710px;
 }
 
 .heading-img-1 {
@@ -248,7 +249,9 @@
     display: flex;
     width: 1611px;
     height: 213px;
-    column-gap: 167px;
+    column-gap: 152px;
+    max-width: 1710px;
+    margin-top: 28px;
 }
 
 /* fresh-frouts-bg section start */
@@ -262,10 +265,9 @@
 /* start call center section */
 .call-center__inner {
     display: flex;
+    max-width: 1710px;
+    margin: 0% auto;
     width: 1710px;
-    left: 23px;
-    position: absolute;
-    top: 3191px;
     column-gap: 30px;
 }
 
@@ -280,9 +282,7 @@
 .call-center-01-tex {
     width: 275px;
     height: 77px;
-    top: 11px;
-    left: 130px;
-    position: absolute;
+    display: inline-block;
 }
 
 .call-center-01 {
@@ -308,40 +308,32 @@
 .authentic-products-text {
     width: 275px;
     height: 77px;
-    top: 11px;
-    left: 567px;
-    position: absolute;
+    display: inline-block;
+
 }
 
 .secure-payment-text {
     width: 275px;
     height: 77px;
-    top: 11px;
-    left: 995px;
-    position: absolute;
+
 }
 
 .best-price-text {
     width: 275px;
     height: 77px;
-    top: 11px;
-    left: 1428px;
-    position: absolute;
+
 }
 
 /* End call center section */
 
 .bangal-shop.footer-logo img {
     width: 297px;
-    position: absolute;
     height: 61px;
 }
 
 .footer__item {
     width: 1859px;
     height: 618px;
-    top: 3337px;
-    position: absolute;
     background-color: #F5F5F5;
 }
 
@@ -468,29 +460,34 @@
     display: flex;
     justify-content: space-between;
 }
-.fruits-collection-item {
+.fruits-collectioni {
     display: flex;
     justify-content: space-between;
 }
 
-.fruits-collection-item .arrow-icon {
+.fruits-collection .arrow-icon {
     display: block;
     width: 60px;
     height: 60px;
     border: 1px solid black;
     border-radius: 30px;
-    /*text-align: center;*/
     position: relative;
 }
 
-/*.arrow-icon img {
-    margin-top: 18px;
-}*/
 .arrow-icon img {
     position: absolute;
     top: 18px;
     left: 18px;
 }
+
+.fruits-collection.item-01 {
+    max-width: 550px;
+    background: #FFF0DC;
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+}
+
 /* Fruits collection End */
 
 
