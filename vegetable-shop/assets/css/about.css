@@ -252,6 +252,7 @@
     column-gap: 152px;
     max-width: 1710px;
     margin-top: 28px;
+    justify-content: space-around;
 }
 
 /* fresh-frouts-bg section start */
@@ -269,6 +270,7 @@
     margin: 0% auto;
     width: 1710px;
     column-gap: 30px;
+    margin: 62px auto;
 }
 
 .call-center__inner img {
