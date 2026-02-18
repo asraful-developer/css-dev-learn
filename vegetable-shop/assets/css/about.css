@@ -282,33 +282,42 @@
 .call-center-01-tex {
     width: 275px;
     height: 77px;
-    display: inline-block;
+    
 }
 
 .call-center-01 {
     width: 405px;
     height: 100px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .authentic-products {
     width: 405px;
     height: 100px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.secure-payment {
+ .secure-payment {
     width: 405px;
     height: 100px;
+    display: flex;
+    justify-content: space-around;
 }
+
 
 .best-price {
     width: 405px;
     height: 100px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .authentic-products-text {
     width: 275px;
     height: 77px;
-    display: inline-block;
+    
 
 }
 
@@ -319,7 +328,7 @@
 }
 
 .best-price-text {
-    width: 275px;
+   width: 275px;
     height: 77px;
 
 }
