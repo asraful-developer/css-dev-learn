@@ -342,48 +342,32 @@
     height: 61px;
 }
 
-.footer__item {
-    width: 1859px;
-    height: 618px;
-    background-color: #F5F5F5;
-}
+
 
 .bangal-shop h3 {
     width: 210px;
     height: 40px;
-    left: 192px;
-    position: absolute;
+  
 }
 .bangal-shop img {
     width: 65px;
     height: 61px;
-    left: 106px;
-    position: absolute;
+
 }
-.bangal-shop {
-    top: 60px;
-    position: absolute;
-}
+
 .bangal-shop p {
     width: 733px;
     height: 84px;
-    top: 90px;
-    position: absolute;
-    left: 105px;
+
 }
-.app-stor {
-    position: absolute;
-    top: 277px;
-    left: 106px;
-}
+
 .about-us
 
  {
-    position: absolute;
-    left: 1097px;
+
     width: 305px;
     height: 311px;
-    top: 3398px;
+
 }
 .footer__item.about-us.footer-menu a {
     font-family: poppins;
@@ -393,11 +377,10 @@
 }
 
 .info {
-    position: absolute;
-    left: 1467px;
+
     width: 305px;
     height: 311px;
-    top: 3398px;
+  
 }
 
 .footer__item.info.footer-menu a {
@@ -415,26 +398,26 @@
 }
 
 .footer__wrapper {
-    max-width: 1710px;
+    max-width: 1920px;
+    height: 618px;
     margin: 0 auto;
     background: #F5F5F5;
+    display: flex;
+    width: 1920px;
+    justify-content: space-around;
+    
 }
 
 
 
 /* Footer bottom Start */
 
-.footer-bottom {
-    position: relative;
-    display: block;
-}
-
 .footer-bottom__inner {
     width: 1710px;
-    margin: 0 auto;
+    margin: -120px auto;
     height: 56px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .copyright {
