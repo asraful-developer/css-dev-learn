@@ -266,12 +266,14 @@
 
 /* start call center section */
 .call-center__inner {
-    display: flex;
     max-width: 1710px;
-    margin: 0% auto;
+    margin: 0 auto;
     width: 1710px;
-    column-gap: 30px;
-    margin: 62px auto;
+    /* column-gap: 30px; */
+    /* margin: 62px auto; */
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .call-center__inner img {
@@ -398,27 +400,38 @@
     display: block;
 }
 
+.main-footer{
+    background-color: #F5F5F5;
+}
+
 .footer__wrapper {
-    max-width: 1920px;
-    height: 618px;
+    max-width: 1710px;
+    width: 100%;
+    /* height: 618px; */
     margin: 0 auto;
     background: #F5F5F5;
     display: flex;
-    width: 1920px;
-    justify-content: space-around;
-    
+    /* width: 1920px; */
+    justify-content: space-between;
+    padding: 70px 0;
 }
-
 
 
 /* Footer bottom Start */
 
+.footer-bottom {
+    background-color: #F5F5F5;
+}
 .footer-bottom__inner {
-    width: 1710px;
-    margin: -120px auto;
-    height: 56px;
+    max-width: 1710px;
+    /* margin: -120px auto; */
+    margin: 0 auto;
+    width: 100%;
+    /* height: 56px; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 20px 0;
+    
 }
 
 .copyright {
@@ -454,7 +467,7 @@
     margin: 0 auto;
     display: flex;
     column-gap: 24px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .fruits-collectioni {
