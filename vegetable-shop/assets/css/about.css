@@ -268,7 +268,7 @@
 .call-center__inner {
     max-width: 1710px;
     margin: 0 auto;
-    width: 1710px;
+    /* width: 1710px; */
     /* column-gap: 30px; */
     /* margin: 62px auto; */
     padding: 70px 0;
