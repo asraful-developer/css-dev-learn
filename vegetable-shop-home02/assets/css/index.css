@@ -5,12 +5,11 @@ header {
 
 
 .hero-bg__img img {
-    width: 1820px;
+    max-width: 1820px;
     height: 878px;
-    top: 215px;
-    left: 50px;
     border-radius: 30px;
-    position: absolute;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .hero-bg__text {
