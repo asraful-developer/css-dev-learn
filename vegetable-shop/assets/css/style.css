@@ -1,15 +1,526 @@
 .page-width {
-  width: 1710px;
-  margin: 0 auto;
-  background-color: #EBFAEB;
+    width: 1445px;
+    background-color: hwb(120 73% 1%);
+    margin: 40px;
+    height: 574px;
+    border-radius: 30px;
 }
 
-.text-content {
-  display: inline-block;
-  width: 49%;
+.category-heading h2 {
+    font-size: 36px;
+    line-height: 52px;
+    color: #333333;
+    font-family: poppins;
 }
 
-.image-box {
-  display: inline-block;
-  width: 49%;
+.category-heading hr {
+    margin-left: 40;
 }
+
+.text-content__h3 {
+    color: rgba(3, 185, 3, 0.888);
+}
+
+.category__inner {
+    padding-bottom: 70px;
+    max-width: 1710px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.category__inner .category-box {
+    margin-top: 40px;
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+}
+
+.category-box .category-card {
+    background: white;
+    padding: 35px 45px;
+    background-color: #F2F2F2;
+}
+
+.category-box .category-card:last-child {
+    margin-right: 0px;
+}
+
+.category-card img {
+    width: 165px;
+    height: 130px;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+.category-width {
+    width: 1494px;
+    background: #ffffff;
+}
+
+/* Hero section start */
+
+.hero{
+    background: #EBFAEB;
+}
+
+.hero__inner {
+    max-width: 1710px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    column-gap: 50px;
+    justify-content: space-between;
+}
+.hero__content {
+    padding: 165px 0;
+}
+
+.hero__content h4 {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 500;
+    color: #27AE60;
+    font-family: Poppins;
+    margin: 0;
+}
+
+.hero__content h2 {
+    font-size: 70px;
+    line-height: 90px;
+    font-weight: 700;
+    color: #333333;
+    font-family: Poppins;
+    margin: 0;
+}
+
+.hero__content p {
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #4F4F4F;
+    font-family: Poppins;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.hero__content a {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: Poppins;
+    letter-spacing: 0;
+
+    background-color: #27AE60;
+    padding: 15px 54px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.hero__image-box {
+    width: 661px;
+    height: auto;
+    display: block;
+}
+
+.hero__image-box img {
+    width: 100%;
+    height: 100%;
+    vertical-align: bottom;
+    border-style: none;
+}
+
+/* Hero section end */
+
+/* collection section start */
+.collection__inner {
+    max-width: 1710px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 18px;
+    height: 535px;
+}
+
+.collection__item-bg-image {
+    width: 840px;
+    height: 535px;
+    border-bottom-left-radius: 20px;
+}
+
+.text-part01 {
+    width: 280px;
+    height: 281px;
+    position: relative;
+    left: 175px;
+    bottom: 392px;
+}
+
+.text-part02 {
+    width: 280px;
+    height: 281px;
+    position: relative;
+    left: 175px;
+    bottom: 392px;
+}
+
+/* collection section end */
+
+.deals__wrapper {
+    max-width: 1710px;
+    margin: 0 auto;
+    width: 100%;
+}
+.deals__inner {
+    display: flex;
+    max-width: 1710px;
+    width: 100%;
+    gap: 50px;
+    height: 590px;
+}
+
+.deals-header {
+    font-size: 36px;
+    line-height: 52px;
+    color: #333333;
+    font-family: poppins;
+}
+
+.deals-card {
+    width: 318px;
+    height: 380px;
+    border-bottom-left-radius: 20px;
+}
+
+.img-tex {
+    text-align: center;
+}
+
+.cart-btn {
+    width: 258px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: whitesmoke;
+    color: #27AE60;
+    font-weight: 965;
+}
+
+/* start populer brand section */
+
+.popular-brand__heading {
+    max-width: 1710px;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: solid 2px #E0E0E0;
+    width: 1710px;
+}
+
+.heading-img-1 {
+    background: #F2F2F2;
+    width: 52px;
+    height: 52px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    left:1430px;
+}
+.heading-img-1 img {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    top: 15.6px;
+}
+
+.heading-img-2 {
+    background: #27AE60;
+    width: 52px;
+    height: 52px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    left: 1460px;
+}
+
+.heading-img-2 img {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    top: 15.6px;
+}
+.popular-brand__inner {
+    display: flex;
+    width: 1611px;
+    height: 213px;
+    column-gap: 152px;
+    max-width: 1710px;
+    margin-top: 28px;
+    justify-content: space-around;
+    margin: 28px auto;
+}
+
+/* fresh-frouts-bg section start */
+
+
+
+
+/* fresh-frouts-bg section end */
+
+
+/* start call center section */
+.call-center__inner {
+    max-width: 1710px;
+    margin: 0 auto;
+    /* width: 1710px; */
+    /* column-gap: 30px; */
+    /* margin: 62px auto; */
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-center__inner img {
+    background: #EBFAEB;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+
+.call-center-01-tex {
+    width: 275px;
+    height: 77px;
+    
+}
+
+.call-center-01 {
+    width: 405px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.authentic-products {
+    width: 405px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ .secure-payment {
+    width: 405px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.best-price {
+    width: 405px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.authentic-products-text {
+    width: 275px;
+    height: 77px;
+    
+
+}
+
+.secure-payment-text {
+    width: 275px;
+    height: 77px;
+
+}
+
+.best-price-text {
+   width: 275px;
+    height: 77px;
+
+}
+
+/* End call center section */
+
+.bangal-shop.footer-logo img {
+    width: 297px;
+    height: 61px;
+}
+
+
+
+.bangal-shop h3 {
+    width: 210px;
+    height: 40px;
+  
+}
+.bangal-shop img {
+    width: 65px;
+    height: 61px;
+
+}
+
+.bangal-shop p {
+    width: 733px;
+    height: 84px;
+
+}
+
+.about-us
+
+ {
+
+    width: 305px;
+    height: 311px;
+
+}
+.footer__item.about-us.footer-menu a {
+    font-family: poppins;
+    line-height: 50px;
+    text-decoration: none;
+    color: #828282;
+}
+
+.info {
+
+    width: 305px;
+    height: 311px;
+  
+}
+
+.footer__item.info.footer-menu a {
+    width: 305px;
+    font-family: poppins;
+    line-height: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #828282;
+}
+
+/* Footer section */
+.footer-menu a {
+    display: block;
+}
+
+.main-footer{
+    background-color: #F5F5F5;
+}
+
+.footer__wrapper {
+    max-width: 1710px;
+    width: 100%;
+    /* height: 618px; */
+    margin: 0 auto;
+    background: #F5F5F5;
+    display: flex;
+    /* width: 1920px; */
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+
+/* Footer bottom Start */
+
+.footer-bottom {
+    background-color: #F5F5F5;
+}
+.footer-bottom__inner {
+    max-width: 1710px;
+    /* margin: -120px auto; */
+    margin: 0 auto;
+    width: 100%;
+    /* height: 56px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    
+}
+
+.copyright {
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+    top: 19px;
+}
+
+.pay-icon img {
+    width: 90px;
+    height: 23px;
+}
+
+.pay-icon {
+    width: 391px;
+    column-gap: 9px;
+    display: flex;
+}
+.socal-icon img {
+    width: 56px;
+    height: 56px;
+
+}
+
+/* Footer bottom End */
+
+
+
+/* Fruits collection Start */
+.fruits-collection__inner {
+    max-width: 1710px;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 24px;
+    justify-content: space-between;
+}
+
+.fruits-collectioni {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fruits-collection .arrow-icon {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 30px;
+    position: relative;
+}
+
+.arrow-icon img {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+
+.fruits-collection_item {
+    border-radius: 20px;
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.fruits-collection-item-left h4{
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #333333;
+    font-family: poppins;
+}
+
+.fruits-collection_item.item-01 {
+    background: #FFF0DC;
+}
+
+.fruits-collection_item.item-02 {
+    background: #c1d9b9;
+}
+
+
+.fruits-collection-item-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
