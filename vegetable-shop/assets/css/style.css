@@ -1,3 +1,21 @@
+
+/* header Section Start */
+.header__inner{
+  display: flex;
+    justify-content: space-between;
+    max-width: 1710px;
+    margin: 0 auto;
+    width: 100%;
+}
+.tab-menu ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+
+/* end header section */
+
 .page-width {
     width: 1445px;
     background-color: hwb(120 73% 1%);
