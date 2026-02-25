@@ -26,6 +26,19 @@ header-bottom button {
     color: white;
 }
 
+.speical-offer {
+    line-height: 30px;
+    letter-spacing: 0%;
+    font-size: 20px;
+    color: #FF5C00;
+    justify-content: center;
+    display: flex;
+}
+.header-bottom button {
+    border: none;
+    background: #27AE60;
+    color: white;
+}
 
 
 /* end header section */
