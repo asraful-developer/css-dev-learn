@@ -12,6 +12,20 @@
     gap: 50px;
     list-style: none;
 }
+.header-bottom {
+    justify-content: center;
+    display: flex;
+    width: 405px;
+    height: 60px;
+    background: #27AE60;
+    border-radius: 100px;
+}
+header-bottom button {
+    border: none;
+    background: #27AE60;
+    color: white;
+}
+
 
 
 /* end header section */
