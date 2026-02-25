@@ -1,26 +1,41 @@
 
 /* header Section Start */
 .header__inner{
-  display: flex;
-    justify-content: space-between;
     max-width: 1710px;
     margin: 0 auto;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .tab-menu ul {
     display: flex;
     gap: 50px;
     list-style: none;
 }
-.header-bottom {
+
+.btn-box {
     justify-content: center;
     display: flex;
-    width: 405px;
+    /* width: 405px; */
     height: 60px;
     background: #27AE60;
     border-radius: 100px;
+    column-gap: 100px;
+    /* align-content: center; */
+    align-items: center;
+    padding: 0 30px;
 }
-header-bottom button {
+
+.btn-box .text {
+    color: #ffffff;
+}
+
+.menu-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+btn-box button {
     border: none;
     background: #27AE60;
     color: white;
@@ -34,7 +49,7 @@ header-bottom button {
     justify-content: center;
     display: flex;
 }
-.header-bottom button {
+.btn-box button {
     border: none;
     background: #27AE60;
     color: white;
