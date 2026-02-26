@@ -43,11 +43,11 @@ btn-box button {
 
 .speical-offer {
     line-height: 30px;
-    letter-spacing: 0%;
     font-size: 20px;
     color: #FF5C00;
-    justify-content: center;
     display: flex;
+    gap: 28px;
+    align-items: center;
 }
 .btn-box button {
     border: none;
