@@ -120,8 +120,9 @@ btn-box button {
 
 /* Hero section start */
 
-.hero{
+.hero {
     background: #EBFAEB;
+    border-radius: 30px;
 }
 
 .hero__inner {
