@@ -225,6 +225,28 @@ btn-box button {
     left: 175px;
     bottom: 392px;
 }
+.text-part01 h4 {
+    color: #FF5C00;
+    line-height: 36px;
+    font-size: 24px;
+}
+
+.text-part01 h2 {
+    font-size: 46px;
+}
+
+.text-part01 a {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #FF5C00;
+    font-family: Poppins;
+    letter-spacing: 0;
+    background-color: #ffffff;
+    padding: 15px 54px;
+    border-radius: 50px;
+    text-decoration: none;
+}
 
 /* collection section end */
 
