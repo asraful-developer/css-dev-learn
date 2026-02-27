@@ -222,7 +222,7 @@ btn-box button {
     width: 280px;
     height: 281px;
     position: relative;
-    left: 175px;
+    left: 130px;
     bottom: 392px;
 }
 .text-part01 h4 {
@@ -230,8 +230,16 @@ btn-box button {
     line-height: 36px;
     font-size: 24px;
 }
+.text-part02 h4 {
+    color: #FF5C00;
+    line-height: 36px;
+    font-size: 24px;
+}
 
 .text-part01 h2 {
+    font-size: 46px;
+}
+.text-part02 h2 {
     font-size: 46px;
 }
 
