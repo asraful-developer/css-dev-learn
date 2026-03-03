@@ -1,4 +1,8 @@
-
+.bengal-shop {
+    display: flex;
+    max-width: 1710px;
+    width: 100%;
+}
 /* header Section Start */
 .header__inner{
     max-width: 1710px;
