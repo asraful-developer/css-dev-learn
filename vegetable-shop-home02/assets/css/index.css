@@ -1,5 +1,9 @@
 
-
+section.hero-bg {
+    max-width: 1820px;
+    width: 100%;
+    margin: 0 auto;
+}
 
 .hero-bg__img img {
     max-width: 1820px;
@@ -12,13 +16,12 @@
 .hero-bg__text {
     width: 829px;
     height: 458px;
-    top: 392px;
     left: 230px;
-    position: relative;
     letter-spacing: 0px;
     color: white;
     font-family: Poppins;
-    top: 392px
+    top: 75px;
+    position: absolute;
 }
 
 p.offer {
