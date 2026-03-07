@@ -1,3 +1,70 @@
+.bengal-shop {
+    display: flex;
+    max-width: 1710px;
+    width: 100%;
+}
+
+/* header Section Start */
+.header__inner {
+    max-width: 1710px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-menu ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.btn-box {
+    justify-content: center;
+    display: flex;
+    /* width: 405px; */
+    height: 60px;
+    background: #27AE60;
+    border-radius: 100px;
+    column-gap: 100px;
+    /* align-content: center; */
+    align-items: center;
+    padding: 0 30px;
+}
+
+.btn-box .text {
+    color: #ffffff;
+}
+
+.menu-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+btn-box button {
+    border: none;
+    background: #27AE60;
+    color: white;
+}
+
+.speical-offer {
+    line-height: 30px;
+    font-size: 20px;
+    color: #FF5C00;
+    display: flex;
+    gap: 28px;
+    align-items: center;
+}
+
+.btn-box button {
+    border: none;
+    background: #27AE60;
+    color: white;
+}
+
+
+/* end header section */
+
 .page-width {
     width: 1445px;
     background-color: hwb(120 73% 1%);
@@ -59,14 +126,22 @@
 }
 
 /* Hero section start */
+
+.hero {
+    background: #EBFAEB;
+}
+
 .hero__inner {
     max-width: 1710px;
     width: 100%;
     margin: 0px auto;
-    background: #EBFAEB;
-    padding: 50px 150px 0;
+    overflow-x: hidden;
+}
+
+.hero__item {
     display: flex;
     column-gap: 50px;
+    justify-content: space-between;
 }
 
 .hero__content {
@@ -158,8 +233,54 @@
     width: 280px;
     height: 281px;
     position: relative;
-    left: 175px;
+    left: 130px;
     bottom: 392px;
+}
+
+.text-part01 h4 {
+    color: #FF5C00;
+    line-height: 36px;
+    font-size: 24px;
+}
+
+.text-part02 h4 {
+    color: #FF5C00;
+    line-height: 36px;
+    font-size: 24px;
+}
+
+.text-part01 h2 {
+    font-size: 46px;
+}
+
+.text-part02 h2 {
+    font-size: 46px;
+}
+
+.text-part01 a {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #FF5C00;
+    font-family: Poppins;
+    letter-spacing: 0;
+    background-color: #ffffff;
+    padding: 15px 54px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.text-part02 a {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #FF5C00;
+    font-family: Poppins;
+    letter-spacing: 0;
+    background-color: #ffffff;
+    padding: 15px 54px;
+    border-radius: 50px;
+    text-decoration: none;
 }
 
 /* collection section end */
@@ -169,6 +290,7 @@
     margin: 0 auto;
     width: 100%;
 }
+
 .deals__inner {
     display: flex;
     max-width: 1710px;
@@ -220,8 +342,9 @@
     border-radius: 30px;
     text-align: center;
     position: relative;
-    left:1430px;
+    left: 1430px;
 }
+
 .heading-img-1 img {
     position: relative;
     height: 20px;
@@ -245,6 +368,7 @@
     width: 20px;
     top: 15.6px;
 }
+
 .popular-brand__inner {
     display: flex;
     width: 1611px;
@@ -287,7 +411,7 @@
 .call-center-01-tex {
     width: 275px;
     height: 77px;
-    
+
 }
 
 .call-center-01 {
@@ -304,7 +428,7 @@
     justify-content: space-around;
 }
 
- .secure-payment {
+.secure-payment {
     width: 405px;
     height: 100px;
     display: flex;
@@ -322,7 +446,7 @@
 .authentic-products-text {
     width: 275px;
     height: 77px;
-    
+
 
 }
 
@@ -333,7 +457,7 @@
 }
 
 .best-price-text {
-   width: 275px;
+    width: 275px;
     height: 77px;
 
 }
@@ -350,8 +474,9 @@
 .bangal-shop h3 {
     width: 210px;
     height: 40px;
-  
+
 }
+
 .bangal-shop img {
     width: 65px;
     height: 61px;
@@ -364,14 +489,13 @@
 
 }
 
-.about-us
-
- {
+.about-us {
 
     width: 305px;
     height: 311px;
 
 }
+
 .footer__item.about-us.footer-menu a {
     font-family: poppins;
     line-height: 50px;
@@ -383,7 +507,7 @@
 
     width: 305px;
     height: 311px;
-  
+
 }
 
 .footer__item.info.footer-menu a {
@@ -400,7 +524,7 @@
     display: block;
 }
 
-.main-footer{
+.main-footer {
     background-color: #F5F5F5;
 }
 
@@ -422,6 +546,7 @@
 .footer-bottom {
     background-color: #F5F5F5;
 }
+
 .footer-bottom__inner {
     max-width: 1710px;
     /* margin: -120px auto; */
@@ -431,7 +556,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
-    
+
 }
 
 .copyright {
@@ -451,6 +576,7 @@
     column-gap: 9px;
     display: flex;
 }
+
 .socal-icon img {
     width: 56px;
     height: 56px;
@@ -498,7 +624,7 @@
     padding: 30px;
 }
 
-.fruits-collection-item-left h4{
+.fruits-collection-item-left h4 {
     font-size: 32px;
     line-height: 36px;
     font-weight: 600;
@@ -520,4 +646,3 @@
     flex-direction: column;
     justify-content: space-around;
 }
-
