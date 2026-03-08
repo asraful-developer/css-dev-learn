@@ -85,24 +85,33 @@ span {
     border-radius: 30px;
     background: #F2F2F2;
 }
+.image-box__inner {
+    display: flex;
+    max-width: 1820px;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin: 0px auto;
+    align-items: center;
+}
 
 .image-card {
+    border: solid 2px #F2F2F2;
+    text-align: center;
     display: flex;
-    column-gap: 10px;
     width: 220px;
     height: 220px;
-    column-gap: 10px;
+    flex-direction: column;
+    border-radius: 300px;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 
 
-.image-card.item-01 h4 {
+.image-card h4 {
     width: 148px;
     height: 30px;
-    top: 156px;
-    position: relative;
-    left: 36px;
-    text-align: center;
     font-family: poppins;
     font-weight: 500;
     size: 18px;
@@ -110,73 +119,18 @@ span {
 
 
 
-.image-card.item-02 h4 {
-    width: 148px;
-    height: 30px;
-    top: 156px;
-    position: relative;
-    left: 36px;
-    text-align: center;
-    font-family: poppins;
-    font-weight: 500;
-    size: 18px;
-}
 
 
 
-.image-card.item-03 h4 {
-    width: 148px;
-    height: 30px;
-    top: 156px;
-    position: relative;
-    left: 36px;
-    text-align: center;
-    font-family: poppins;
-    font-weight: 500;
-    size: 18px;
-}
 
 
 
-.image-card.item-04 h4 {
-    width: 148px;
-    height: 30px;
-    top: 156px;
-    position: relative;
-    left: 36px;
-    text-align: center;
-    font-family: poppins;
-    font-weight: 500;
-    size: 18px;
-}
 
 
 
-.image-card.item-05 h4 {
-    width: 148px;
-    height: 30px;
-    top: 156px;
-    position: relative;
-    left: 36px;
-    text-align: center;
-    font-family: poppins;
-    font-weight: 500;
-    size: 18px;
-}
 
 
 
-.image-card.item-06 h4 {
-    width: 148px;
-    height: 30px;
-    top: 156px;
-    position: relative;
-    left: 36px;
-    text-align: center;
-    font-family: poppins;
-    font-weight: 500;
-    size: 18px;
-}
 
 .right-arro img {
     width: 20.8px;
