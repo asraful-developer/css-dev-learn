@@ -140,6 +140,14 @@ section.image-box {
 }
 
 /* end img box section */
+.test01 {
+    max-width: 550px;
+    width: 100%;
+    background: #FFF0DC;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .tex01 {
     width: 191px;
@@ -170,7 +178,10 @@ section.image-box {
     border: solid;
     padding: 20px;
     border-radius: 100px;
+    top: 55px;
+    position: relative;
 }
+
 
 /*  */
 .vegetable-collection {
