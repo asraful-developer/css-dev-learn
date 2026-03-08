@@ -184,52 +184,45 @@ section.image-box {
 
 
 /*  */
-.vegetable-collection {
+
+.vegetable-collection__inner {
+    max-width: 550px;
+    width: 100%;
     background: #FFF0DC;
-    top: 1475px;
-    position: absolute;
     height: 350px;
-    width: 550px;
-    left: 685px;
-    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .text02 {
-    width: 171px;
+    width: 191px;
     height: 92px;
-    top: 1535px;
-    position: absolute;
-    left: 735px;
     font-family: poppins;
     font-weight: 700;
     font-size: 32px;
+    display: flex;
+    flex-direction: column;
 }
 
-.vegetable-collection-img {
-    width: 254px;
-    height: 300px;
-    top: 1500px;
-    position: absolute;
-    left: 961px;
+.vegetable-collection__inner {
+    background: #DDF1D6;
+    height: 350px;
+    width: 550px;
+
 }
 
-.vegetable-collection-arro {
-    background: #FFFFFF;
-    width: 60px;
-    height: 60px;
-    top: 1705px;
-    position: absolute;
-    left: 735px;
+
+
+.text02 img {
+    max-width: 24px;
+    width: 100%;
+    border: solid;
+    padding: 20px;
     border-radius: 100px;
+    top: 55px;
+    position: relative;
 }
 
-.vegetable-collection-arro img {
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    top: 18px;
-    left: 18px;
-}
 
 /*  */
 .grocery-item {
