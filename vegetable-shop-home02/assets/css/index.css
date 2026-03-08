@@ -140,6 +140,15 @@ section.image-box {
 }
 
 /* end img box section */
+.fresh-fruits-collection__inner {
+    max-width: 1710px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
 .test01 {
     max-width: 550px;
     width: 100%;
@@ -147,6 +156,7 @@ section.image-box {
     height: 350px;
     display: flex;
     justify-content: space-evenly;
+     border-radius: 20px;
 }
 
 .tex01 {
@@ -192,6 +202,7 @@ section.image-box {
     height: 350px;
     display: flex;
     justify-content: space-evenly;
+    border-radius: 20px;
 }
 
 .text02 {
@@ -225,53 +236,40 @@ section.image-box {
 
 
 /*  */
+
 .grocery-item {
-    background: #FFEBB7;
-    top: 1475px;
-    position: absolute;
+    max-width: 550px;
+    width: 100%;
+    background: #FFF0DC;
     height: 350px;
-    width: 550px;
-    left: 1265px;
+    display: flex;
+    justify-content: space-evenly;
     border-radius: 20px;
 }
 
 .tex03 {
-    width: 132px;
+    width: 191px;
     height: 92px;
-    top: 1535px;
-    position: absolute;
-    left: 1315px;
     font-family: poppins;
     font-weight: 700;
     font-size: 32px;
+    display: flex;
+    flex-direction: column;
 }
 
-.grocery-item-img {
-    width: 254px;
-    height: 300px;
-    top: 1500px;
-    position: absolute;
-    left: 1541px;
-}
 
-.grocery-item-arrow {
-    background: #FFFFFF;
-    width: 60px;
-    height: 60px;
-    top: 1705px;
-    position: absolute;
-    left: 1315px;
+
+
+
+.tex03 img {
+    max-width: 24px;
+    width: 100%;
+    border: solid;
+    padding: 20px;
     border-radius: 100px;
+    top: 55px;
+    position: relative;
 }
-
-.grocery-item-arrow img {
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    top: 18px;
-    left: 18px;
-}
-
 /* start deals-gallery */
 .deals__inner {
     width: 1710px;
