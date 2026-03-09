@@ -264,6 +264,7 @@ section.image-box {
     position: relative;
     background: #FFFF
 }
+
 /* start deals-gallery */
 .deals__inner {
     display: flex;
@@ -288,12 +289,33 @@ section.image-box {
     display: flex;
     flex-direction: column;
     align-items: center;
+    row-gap: 15px;
 
 }
     .Icon img {
     width: 126px;
     height: 22px;
-    background-color: white;}
+    background-color: white;
+}
+p.category-name {
+    font-size: 14px;
+    font-weight: 400;
+    color: #BDBDBD;
+    
+}
+h5.product-name {
+    font-size: 20px;
+    letter-spacing: 0%;
+    font-weight: 500;
+    width: 405px;
+    height: 33px;
+    margin: 0 auto;
+    text-align: center;
+}
+.dollar-sing {
+    display: flex;
+    column-gap: 15px;
+}
 /*  */
 
 /* End deals-gallery */
