@@ -274,6 +274,21 @@ section.image-box {
     width: 100%;
     margin-top: 50px;
 }
+.deals-headeing {
+    height: 83px;
+    border-bottom: solid 2px #E0E0E0;
+}
+.deals-gallery {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.deals-headeing p {
+    font-size: 36px;
+    width: 612px;
+    height: 52px;
+    font-weight: 600;
+}
 .deals-gallery img{
     width: 405px;
     height: 450px;
