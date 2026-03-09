@@ -265,12 +265,31 @@ section.image-box {
     background: #FFFF
 }
 /* start deals-gallery */
-.deals-gallery-item-01 {
+.deals__inner {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1710px;
+    width: 100%;
+    margin-top: 50px;
+}
+.deals-gallery img{
     width: 405px;
     height: 622px;
     text-align: center;
+    background-color: #F5F5F5;
 
 }
+.deals-gallery {
+    display: flex;
+    gap: 20px;
+}
+.deals-gallery__tex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*  */
 
 .deals-gallery-item-01 img {
     width: 405px;
