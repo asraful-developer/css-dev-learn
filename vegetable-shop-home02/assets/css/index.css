@@ -185,11 +185,11 @@ section.image-box {
 .tex01 img {
     max-width: 24px;
     width: 100%;
-    border: solid;
     padding: 20px;
     border-radius: 100px;
     top: 55px;
     position: relative;
+    background: #FFFF
 }
 
 
@@ -222,16 +222,14 @@ section.image-box {
 
 }
 
-
-
 .text02 img {
     max-width: 24px;
     width: 100%;
-    border: solid;
     padding: 20px;
     border-radius: 100px;
     top: 55px;
     position: relative;
+    background: #FFFF
 }
 
 
@@ -257,26 +255,21 @@ section.image-box {
     flex-direction: column;
 }
 
-
-
-
-
 .tex03 img {
     max-width: 24px;
     width: 100%;
-    border: solid;
     padding: 20px;
     border-radius: 100px;
     top: 55px;
     position: relative;
+    background: #FFFF
 }
 /* start deals-gallery */
-.deals__inner {
-    width: 1710px;
-    height: 745px;
-    top: 1925px;
-    position: absolute;
-    left: 105px;
+.deals-gallery-item-01 {
+    width: 405px;
+    height: 622px;
+    text-align: center;
+
 }
 
 .deals-gallery-item-01 img {
@@ -292,37 +285,46 @@ section.image-box {
     background-color: white;
 }
 
-.deals-gallery-item-01 {
-    width: 405px;
-    height: 622px;
-    position: absolute;
-    text-align: center;
-
-}
-
 .deals-gallery-item-02 {
     width: 405px;
     height: 622px;
-    position: absolute;
-    left: 435px;
-    top: 1px;
+    text-align: center;
+
+
+}
+.deals-gallery-item-02 img {
+    width: 405px;
+    height: 450px;
+    border-radius: 5px;
+    background: #F5F5F5;
 }
 
 .deals-gallery-item-03 {
     width: 405px;
     height: 622px;
-    position: absolute;
-    left: 435px;
-    top: 1px;
+    text-align: center;
+
+}
+.deals-gallery-item-03 img {
+    width: 405px;
+    height: 450px;
+    border-radius: 5px;
+    background: #F5F5F5;
 }
 
 .deals-gallery-item-04 {
     width: 405px;
     height: 622px;
-    position: absolute;
-    left: 435px;
-    top: 1px;
+    text-align: center;
+
 }
+.deals-gallery-item-04 img {
+    width: 405px;
+    height: 450px;
+    border-radius: 5px;
+    background: #F5F5F5;
+}
+
 
 /* End deals-gallery */
 
