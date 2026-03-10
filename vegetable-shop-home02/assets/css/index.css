@@ -342,19 +342,20 @@ p.offer-word {
 
 /* End deals-gallery */
 
-.popular-brand__inner h2 {
+.popular-brand-heading {
+    display: flex;
     max-width: 1710px;
-    height: 83px;
-    border-bottom: solid 2px #E0E0E0;
+    background: green;
     margin: 0 auto;
-    margin-top: 50px;
+    border-bottom: solid 2px #E0E0E0;
 }
 
 .img-box {
-    width: 1611.64px;
     display: flex;
     margin: 0 auto;
     margin-top: 30px;
+    max-width: 1710px;
+    justify-content: space-evenly;
 }
 
 .img-box01 {
