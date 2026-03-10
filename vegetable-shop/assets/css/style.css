@@ -11,6 +11,19 @@
     display: flex;
     justify-content: space-between;
 }
+
+.header-top__inner {
+    max-width: 1710px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.icons-box {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
 .tab-menu ul {
     display: flex;
     gap: 50px;
