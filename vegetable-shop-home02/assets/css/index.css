@@ -343,60 +343,51 @@ p.offer-word {
 /* End deals-gallery */
 
 .popular-brand__inner h2 {
-    top: 2770px;
-    position: absolute;
-    width: 1710px;
+    max-width: 1710px;
     height: 83px;
-    left: 105px;
+    border-bottom: solid 2px #E0E0E0;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
 .img-box {
-    position: absolute;
     width: 1611.64px;
-    top: 2883px;
     display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .img-box01 {
     width: 184px;
     height: 95px;
-    left: 143px;
-    position: absolute;
 }
 
 .img-box02 {
     width: 184px;
     height: 95px;
-    left: 431px;
-    position: absolute;
+
 }
 
 .img-box03 {
     width: 184px;
     height: 95px;
-    left: 763px;
-    position: absolute;
 }
 
 .img-box04 {
     width: 184px;
     height: 95px;
-    left: 1019px;
-    position: absolute;
+
 }
 
 .img-box05 {
     width: 184px;
     height: 95px;
-    left: 1315px;
-    position: absolute;
 }
 
 .img-box06 {
     width: 184px;
     height: 95px;
-    left: 1615px;
-    position: absolute;
+
 }
 
 /*  */
