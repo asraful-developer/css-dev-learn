@@ -345,11 +345,37 @@ p.offer-word {
 .popular-brand-heading {
     display: flex;
     max-width: 1710px;
-    background: green;
     margin: 0 auto;
     border-bottom: solid 2px #E0E0E0;
+    margin-top: 50px;
 }
-
+.popular-brand-heading img {
+    position: relative;
+    width: 20px;
+    height: 20.8px;
+}
+.right-arro-01 {
+    width: 52px;
+    height: 52px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #27AE60;
+    position: relative;
+    left: 1440px;
+}
+.right-arro-02 {
+    width: 52px;
+    height: 52px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F2F2F2;
+    position: relative;
+    left: 1430px;
+}
 .img-box {
     display: flex;
     margin: 0 auto;
