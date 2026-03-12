@@ -1,6 +1,10 @@
 /*  */
-
-.search-box {
+.search-icon {
+    width: 24px;
+    height: 24px;
+    padding: 12px;
+}
+.heading-search-box {
     display: flex;
     max-width: 667px;
     height: 60px;
@@ -11,10 +15,9 @@
 input#fsrch {
     border: none;
     outline: none;
-    background: green;
     max-width: 595px;
     width: 100%;
-    height: 60px;
+    height: 29px;
 }
 .search-box-button {
     width: 144.14px;
