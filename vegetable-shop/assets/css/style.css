@@ -2,7 +2,7 @@
 
 .search-box {
     display: flex;
-    max-width: 595.86px;
+    max-width: 667px;
     height: 60px;
     align-items: center;
     border: solid 1px #E0E0E0;
@@ -20,6 +20,8 @@ input#fsrch {
     width: 144.14px;
     height: 50px;
     text-align: center;
+    padding: 5px;
+
 }
 .search-box-button button {
     max-width: 144.14px;
@@ -28,6 +30,7 @@ input#fsrch {
     background: #4F4F4F;
     color: white;
     border-radius: 100px;
+    border:solid #4F4F4F ;
 }
 
 /*  */
