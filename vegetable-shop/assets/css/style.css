@@ -8,6 +8,22 @@
     border: solid 1px #E0E0E0;
     border-radius: 100px;
 }
+input#fsrch {
+    border: none;
+    outline: none;
+    background: green;
+    max-width: 595px;
+    width: 100%;
+    height: 60px;
+}
+.search-box-button {
+    width: 144.14px;
+    height: 50px;
+    text-align: center;
+}
+
+
+/*  */
 .bengal-shop {
     display: flex;
     max-width: 1710px;
