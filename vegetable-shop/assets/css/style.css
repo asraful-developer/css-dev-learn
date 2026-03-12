@@ -1,3 +1,13 @@
+/*  */
+
+.search-box {
+    display: flex;
+    max-width: 595.86px;
+    height: 60px;
+    align-items: center;
+    border: solid 1px #E0E0E0;
+    border-radius: 100px;
+}
 .bengal-shop {
     display: flex;
     max-width: 1710px;
