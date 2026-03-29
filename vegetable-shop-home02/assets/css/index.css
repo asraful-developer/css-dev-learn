@@ -421,33 +421,26 @@ p.offer-word {
 .deal-bg__inner {
     width: 1710px;
     background: #FAF4F0;
-    position: absolute;
-    top: 3125.76px;
-    left: 105px;
     height: 441px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 
 .deal-bg__inner .right-bg img {
-    position: relative;
-    left: 107px;
-    top: 31px;
     width: 387px;
     height: 367px;
 }
 
 .deal-bg__inner .left-bg img {
-    position: absolute;
-    left: 1163px;
-    top: 30px;
     width: 431px;
     height: 410px;
 }
 
 .deal-time {
-    position: absolute;
-    top: 3225.76px;
-    left: 691px;
-    height: 241px;
+height: 241px;
 }
 
 .deal-time h4 {
@@ -461,7 +454,6 @@ p.offer-word {
 .days h5 {
     width: 53px;
     height: 30px;
-    position: relative;
     font-weight: 500;
     line-height: 30px;
     font-size: medium;
@@ -471,14 +463,12 @@ p.offer-word {
     width: 74px;
     height: 95px;
     left: 131px;
-    position: absolute;
-    top: 120px;
+
 }
 
 .hours h5 {
     width: 53px;
     height: 30px;
-    position: relative;
     font-weight: 500;
     line-height: 30px;
     font-size: medium;
@@ -487,15 +477,11 @@ p.offer-word {
 .min {
     width: 74px;
     height: 95px;
-    left: 262px;
-    position: absolute;
-    top: 120px;
-}
+    left: 262px;}
 
 .min h5 {
     width: 53px;
     height: 30px;
-    position: relative;
     font-weight: 500;
     line-height: 30px;
     font-size: medium;
@@ -505,14 +491,11 @@ p.offer-word {
     width: 74px;
     height: 95px;
     left: 393px;
-    position: absolute;
-    top: 120px;
 }
 
 .sec h5 {
     width: 53px;
     height: 30px;
-    position: relative;
     font-weight: 500;
     line-height: 30px;
     font-size: medium;
@@ -522,7 +505,6 @@ p.offer-word {
     font-family: poppins;
     font-weight: 500;
     top: 15px;
-    position: relative;
     text-decoration: none;
     left: 55px;
     color: white;
@@ -533,16 +515,20 @@ p.offer-word {
     border-radius: 100px;
     background: #27AE60;
     height: 60px;
-    position: absolute;
     width: 180px;
-    left: 138px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.time {
+    display: flex;
+    justify-content: space-around;
 }
 
 /*  */
 .call-center-layout__inner {
     width: 1710px;
     top: 3667px;
-    position: absolute;
     display: flex;
     gap: 30px;
 }
@@ -551,7 +537,6 @@ p.offer-word {
     width: 275px;
     height: 77px;
     top: 11px;
-    position: absolute;
     left: 130px;
 }
 
@@ -559,7 +544,6 @@ p.offer-word {
     width: 405px;
     height: 100px;
     left: 105PX;
-    position: relative;
 }
 
 .authentic-products {
