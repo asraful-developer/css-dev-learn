@@ -550,8 +550,6 @@ p.offer-word {
 
 /*  */
 .call-center-layout__inner {
-    width: 1710px;
-    top: 3667px;
     display: flex;
     gap: 30px;
 }
@@ -564,16 +562,17 @@ p.offer-word {
 }
 
 .customer-support {
-    width: 405px;
-    height: 100px;
-    left: 105PX;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .authentic-products {
-    width: 405px;
-    height: 100px;
-    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
+
 
 .authentic-products .tex {
     width: 275px;
@@ -584,10 +583,11 @@ p.offer-word {
 }
 
 .secure-payment {
-    width: 405px;
-    height: 100px;
-    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
+
 
 .secure-payment .tex {
     width: 275px;
@@ -605,10 +605,11 @@ p.offer-word {
 }
 
 .offer {
-    width: 405px;
-    height: 100px;
-    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
+
 
 .offer .tex {
     width: 275px;
