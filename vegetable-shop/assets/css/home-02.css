@@ -1,15 +1,98 @@
-section.hero-bg {
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+hr,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figure,
+figcaption,
+hgroup,
+menu,
+footer,
+header,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    color: var(--color-white);
+    scroll-behavior: smooth;
+}
+
+.hero-bg__inner {
     max-width: 1820px;
     width: 100%;
     margin: 0 auto;
 }
 
 .hero-bg__img img {
-    max-width: 1820px;
-    height: 878px;
-    border-radius: 30px;
     width: 100%;
-    margin: 0 auto;
 }
 
 .hero-bg__text {
@@ -106,12 +189,11 @@ section.image-box {
     border: solid 2px #F2F2F2;
     text-align: center;
     display: flex;
-    width: 220px;
-    height: 220px;
     flex-direction: column;
-    border-radius: 300px;
+    border-radius: 50%;
     align-items: center;
     justify-content: flex-end;
+    padding: 50px;
 }
 
 
@@ -437,15 +519,22 @@ p.offer-word {
 }
 
 /*  */
+.deal-bg {
+    margin-top: 100px;
+}
+
 .deal-bg__inner {
-    width: 1710px;
+    max-width: 1710px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background: #FAF4F0;
-    height: 441px;
+}
+
+.deal-bg__wrap {
     display: flex;
     justify-content: space-evenly;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 100px;
+    align-items: center;
 }
 
 .deal-bg__inner .right-bg img {
@@ -550,11 +639,11 @@ p.offer-word {
 
 /*  */
 .call-center-layout__inner {
-    display: flex;
-    gap: 30px;
     max-width: 1710px;
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    gap: 30px;
     margin-top: 50px;
     justify-content: space-evenly;
 }
