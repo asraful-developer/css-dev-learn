@@ -552,14 +552,11 @@ p.offer-word {
 .call-center-layout__inner {
     display: flex;
     gap: 30px;
+    max-width: 1710px;
+    width: 100%;
 }
 
-.customer-support .tex {
-    width: 275px;
-    height: 77px;
-    top: 11px;
-    left: 130px;
-}
+
 
 .customer-support {
     display: flex;
@@ -574,13 +571,6 @@ p.offer-word {
 }
 
 
-.authentic-products .tex {
-    width: 275px;
-    height: 77px;
-    top: 11px;
-    position: absolute;
-    left: 130px;
-}
 
 .secure-payment {
     display: flex;
@@ -589,13 +579,6 @@ p.offer-word {
 }
 
 
-.secure-payment .tex {
-    width: 275px;
-    height: 77px;
-    top: 11px;
-    position: absolute;
-    left: 130px;
-}
 
 .secure-payment img {
     width: 100px;
@@ -611,14 +594,6 @@ p.offer-word {
 }
 
 
-.offer .tex {
-    width: 275px;
-    height: 77px;
-    top: 11px;
-    position: absolute;
-    left: 130px;
-
-}
 
 .offer img {
     width: 100px;
