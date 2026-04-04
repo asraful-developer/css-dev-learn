@@ -245,32 +245,9 @@ body {
     border-radius: 20px;
 }
 
-.text02 {
-    width: 191px;
-    height: 92px;
-    font-family: poppins;
-    font-weight: 700;
-    font-size: 32px;
-    display: flex;
-    flex-direction: column;
-}
 
-.vegetable-collection__inner {
-    background: #DDF1D6;
-    height: 350px;
-    width: 550px;
 
-}
 
-.text02 img {
-    max-width: 24px;
-    width: 100%;
-    padding: 20px;
-    border-radius: 100px;
-    top: 55px;
-    position: relative;
-    background: #FFFF
-}
 
 
 /*  */
