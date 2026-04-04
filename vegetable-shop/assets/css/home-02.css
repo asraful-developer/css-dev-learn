@@ -187,35 +187,35 @@ body {
 }
 
 /* end img box section */
-.fresh-fruits-collection__inner {
-    max-width: 1710px;
+.fresh-fruits-collection__box {
     width: 100%;
     display: flex;
     gap: 10px;
-    margin: 0 auto;
     justify-content: space-evenly;
-    margin-top: 50px;
 }
 
-.test01 {
-    max-width: 550px;
-    width: 100%;
-    background: #FFF0DC;
-    height: 350px;
-    display: flex;
-    justify-content: space-evenly;
-    border-radius: 20px;
-}
 
-.tex01 {
-    width: 191px;
+
+
+.tex-box {
     height: 92px;
     font-family: poppins;
     font-weight: 700;
     font-size: 32px;
-    display: flex;
-    flex-direction: column;
 }
+
+.arro-img img {
+    background: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.fresh-fruits-collection__inner {
+    background: #FFF0DC;
+    display: flex;
+}
+
 
 .fruits-collection-bg {
     background: #FFF0DC;
@@ -230,15 +230,7 @@ body {
 
 }
 
-.tex01 img {
-    max-width: 24px;
-    width: 100%;
-    padding: 20px;
-    border-radius: 100px;
-    top: 55px;
-    position: relative;
-    background: #FFFF
-}
+
 
 
 /*  */
