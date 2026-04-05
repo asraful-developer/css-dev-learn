@@ -353,10 +353,16 @@ p.offer-word {
 
 .popular-brand-heading {
     display: flex;
-    max-width: 1710px;
     margin: 0 auto;
     border-bottom: solid 2px #E0E0E0;
     margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+.popular-brand-arrow {
+    display: flex;
+    width: 89%;
+    justify-content: flex-end;
 }
 
 .popular-brand-heading img {
@@ -373,8 +379,6 @@ p.offer-word {
     justify-content: center;
     align-items: center;
     background: #27AE60;
-    position: relative;
-    left: 1440px;
 }
 
 .right-arro-02 {
@@ -385,61 +389,22 @@ p.offer-word {
     justify-content: center;
     align-items: center;
     background: #F2F2F2;
-    position: relative;
-    left: 1430px;
 }
 
 .img-box {
     display: flex;
-    margin: 0 auto;
-    margin-top: 30px;
-    max-width: 1710px;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding-top: 10px;
+    align-items: center;
 }
 
-.img-box01 {
-    width: 184px;
-    height: 95px;
-}
 
-.img-box02 {
-    width: 184px;
-    height: 95px;
-
-}
-
-.img-box03 {
-    width: 184px;
-    height: 95px;
-}
-
-.img-box04 {
-    width: 184px;
-    height: 95px;
-
-}
-
-.img-box05 {
-    width: 184px;
-    height: 95px;
-}
-
-.img-box06 {
-    width: 184px;
-    height: 95px;
-
-}
 
 /*  */
-.deal-bg {
-    margin-top: 100px;
-}
+
 
 .deal-bg__inner {
-    max-width: 1710px;
-    margin: 0 auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin-top: 50px;
     background: #FAF4F0;
 }
 
@@ -449,19 +414,7 @@ p.offer-word {
     align-items: center;
 }
 
-.deal-bg__inner .right-bg img {
-    width: 387px;
-    height: 367px;
-}
 
-.deal-bg__inner .left-bg img {
-    width: 431px;
-    height: 410px;
-}
-
-.deal-time {
-    height: 241px;
-}
 
 .deal-time h4 {
     font-weight: 600;
