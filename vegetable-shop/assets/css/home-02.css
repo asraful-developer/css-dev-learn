@@ -245,8 +245,6 @@ main.layout {
 }
 
 
-/*  */
-
 .grocery-item {
     background: #FFF0DC;
     display: flex;
@@ -347,9 +345,10 @@ p.offer-word {
 
 }
 
-/*  */
 
 /* End deals-gallery */
+
+/* start popular-brand */
 
 .popular-brand-heading {
     display: flex;
@@ -398,9 +397,9 @@ p.offer-word {
     align-items: center;
 }
 
+/* end popular-brand */
 
 
-/*  */
 
 
 .deal-bg__inner {
