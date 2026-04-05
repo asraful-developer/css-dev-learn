@@ -85,6 +85,12 @@ body {
     scroll-behavior: smooth;
 }
 
+main.layout {
+    max-width: 1710px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 /*  */
 .hero-bg__inner {
     position: relative;
@@ -204,11 +210,10 @@ body {
 
 
 .tex-box {
-    height: 92px;
     font-family: poppins;
     font-weight: 700;
     font-size: 32px;
-    padding: 50px;
+    padding: 45px;
     display: flex;
     flex-direction: column;
     row-gap: 50px;
@@ -230,35 +235,21 @@ body {
 }
 
 
-
-
-
-
 /*  end collection__box*/
 
 .vegetable-collection__inner {
-
     background: #FFF0DC;
-
     display: flex;
     justify-content: space-evenly;
     border-radius: 20px;
 }
 
 
-
-
-
-
 /*  */
 
 .grocery-item {
-    max-width: 550px;
-    width: 100%;
     background: #FFF0DC;
-    height: 350px;
     display: flex;
-    justify-content: space-evenly;
     border-radius: 20px;
 }
 
@@ -283,24 +274,18 @@ body {
 }
 
 /* start deals-gallery */
-.deals__inner {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
 
-    width: 100%;
-    margin-top: 50px;
-}
 
 .deals-headeing {
-    height: 83px;
     border-bottom: solid 2px #E0E0E0;
+    padding-bottom: 20px;
+    padding-top: 50px;
 }
+
 
 .deals-gallery {
     display: flex;
-    gap: 20px;
-    margin-top: 10px;
+    gap: 10px
 }
 
 .deals-headeing p {
@@ -317,10 +302,6 @@ body {
 
 }
 
-.deals-gallery {
-    display: flex;
-    gap: 20px;
-}
 
 .deals-gallery__tex {
     display: flex;
