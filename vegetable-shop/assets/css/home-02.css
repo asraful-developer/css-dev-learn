@@ -85,21 +85,15 @@ body {
     scroll-behavior: smooth;
 }
 
-main.layout {
+/*  */
+.hero-bg__inner {
     max-width: 1710px;
     width: 100%;
     margin: 0 auto;
 }
 
-/*  */
-.hero-bg__inner {
-    position: relative;
-}
 
-.hero-bg__inner img {
-    max-width: 100%;
-    max-width: 0 auto;
-}
+
 
 .hero-bg__text {
     position: absolute;
@@ -557,3 +551,42 @@ p.offer-word {
 
 
 /*  */
+.about-layout__inner {
+    max-width: 1710px;
+    width: 100%;
+    background: #F5F5F5;
+}
+
+.socal-media__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bengal-shop__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.bengal-shop p {
+    position: relative;
+    left: 77px;
+    bottom: 50px;
+}
+
+.about-text {
+    padding-left: 50px;
+}
+
+.socal-media__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.app-store {
+    padding-top: 50px;
+    padding-left: 50px;
+}
