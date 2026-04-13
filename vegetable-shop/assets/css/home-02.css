@@ -552,10 +552,15 @@ p.offer-word {
 
 /*  */
 .about-layout__inner {
-    max-width: 1710px;
+    max-width: 1920px;
     width: 100%;
     background: #F5F5F5;
+    padding: 50px;
+    margin-top: 50px;
 }
+
+
+
 
 .socal-media__inner {
     display: flex;
@@ -566,7 +571,7 @@ p.offer-word {
 .bengal-shop__wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+
 }
 
 .bengal-shop p {
@@ -575,18 +580,19 @@ p.offer-word {
     bottom: 50px;
 }
 
-.about-text {
-    padding-left: 50px;
-}
+
 
 .socal-media__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+
 }
 
-.app-store {
-    padding-top: 50px;
-    padding-left: 50px;
+.info {
+    line-height: 30px;
+}
+
+.About-us {
+    line-height: 30px;
 }
